@@ -1,517 +1,538 @@
 <!DOCTYPE html>
-<html lang="hi" class="h-full bg-slate-50">
+<html lang="hi" class="h-full bg-slate-900 text-slate-100">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Principal & Vice Principal CBT Mock Test Portal</title>
-  <!-- Tailwind CSS CDN -->
+  <title>Principal & Vice Principal CBT Mock Test Portal & 3D Smart Notes</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap');
     body {
-      font-family: 'Inter', 'Noto Sans Devanagari', sans-serif;
+      font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', sans-serif;
       -webkit-tap-highlight-color: transparent;
       touch-action: manipulation;
     }
     .custom-scroll::-webkit-scrollbar {
-      width: 5px;
-      height: 5px;
+      width: 6px;
+      height: 6px;
     }
     .custom-scroll::-webkit-scrollbar-thumb {
-      background: #cbd5e1;
+      background: #334155;
       border-radius: 4px;
+    }
+    .glass-card {
+      background: rgba(30, 41, 59, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
     }
   </style>
 </head>
-<body class="h-full flex flex-col text-slate-800 antialiased select-none">
+<body class="h-full flex flex-col antialiased select-none bg-slate-950 text-slate-100">
 
-  <!-- ==================== TOP NAVIGATION HEADER ==================== -->
-  <header class="sticky top-0 z-40 bg-white border-b border-slate-200 shadow-xs">
-    <div class="max-w-7xl mx-auto px-3 sm:px-6 h-16 flex items-center justify-between">
-      <!-- Brand & Home Direct Trigger -->
-      <button type="button" onclick="navigate('HOME')" class="flex items-center gap-2.5 text-left focus:outline-none">
-        <div class="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20">
+  <!-- TOP HEADER -->
+  <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <button type="button" onclick="navigate('HOME')" class="flex items-center gap-3 text-left focus:outline-none">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center text-white shadow-lg shadow-blue-500/30">
           <i class="fa-solid fa-graduation-cap text-lg"></i>
         </div>
         <div>
-          <h1 class="text-base sm:text-lg font-bold text-slate-900 leading-tight">Ruhela Classes</h1>
-          <p class="text-[11px] text-blue-600 font-semibold tracking-wide">Principal CBT Mock Portal</p>
+          <h1 class="text-base sm:text-lg font-black text-white tracking-wide">RUHELA CLASSES</h1>
+          <p class="text-[11px] text-blue-400 font-semibold tracking-wider uppercase">Principal &amp; VP CBT Portal</p>
         </div>
       </button>
 
-      <!-- Navigation & Language Controls -->
       <div class="flex items-center gap-2">
-        <!-- Language Switcher Button -->
-        <button type="button" id="langToggleBtn" onclick="toggleLanguage()" class="px-2.5 py-1.5 rounded-lg border border-slate-200 text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 transition flex items-center gap-1.5">
-          <i class="fa-solid fa-language text-blue-600"></i>
-          <span id="langLabel">हिन्दी / EN</span>
+        <button type="button" onclick="navigate('HOME')" title="Home Dashboard" class="px-3 py-1.5 rounded-lg text-xs font-bold text-slate-300 hover:text-white bg-slate-800 hover:bg-slate-700 transition border border-slate-700">
+          <i class="fa-solid fa-house mr-1 text-blue-400"></i> CBT Mock
         </button>
-
-        <!-- Home Icon -->
-        <button type="button" onclick="navigate('HOME')" title="Home Dashboard" class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-600 hover:text-blue-600 hover:bg-blue-50 transition border border-slate-200">
-          <i class="fa-solid fa-house"></i>
-        </button>
-
-        <!-- Dedicated Notes Icon -->
-        <button type="button" onclick="navigate('NOTES')" title="Visual Smart Notes" class="w-9 h-9 rounded-lg flex items-center justify-center text-purple-600 hover:bg-purple-50 transition border border-purple-200">
-          <i class="fa-solid fa-book-open"></i>
+        <button type="button" onclick="navigate('NOTES')" title="3D Smart Notes" class="px-3 py-1.5 rounded-lg text-xs font-bold text-emerald-300 hover:text-white bg-emerald-950/60 hover:bg-emerald-900/80 transition border border-emerald-800">
+          <i class="fa-solid fa-book-open mr-1 text-emerald-400"></i> 3D Smart Notes
         </button>
       </div>
     </div>
   </header>
 
-  <!-- ==================== MAIN CONTENT CONTAINER ==================== -->
+  <!-- MAIN SCROLLABLE CONTAINER -->
   <main class="flex-1 overflow-y-auto custom-scroll relative">
 
-    <!-- VIEW 1: HOME DASHBOARD -->
-    <div id="view-HOME" class="max-w-4xl mx-auto px-4 py-6 space-y-6">
+    <!-- VIEW 1: HOME (CBT DASHBOARD) -->
+    <div id="view-HOME" class="max-w-4xl mx-auto px-4 py-8 space-y-6">
       
-      <!-- Statutory Advisory Banner -->
-      <div class="bg-amber-50 border border-amber-200/80 rounded-2xl p-4 flex gap-3 text-amber-900 shadow-xs">
-        <i class="fa-solid fa-circle-exclamation text-amber-600 text-lg mt-0.5"></i>
+      <!-- Top Alert -->
+      <div class="glass-card rounded-2xl p-4 flex gap-3 text-emerald-300 border border-emerald-500/30">
+        <i class="fa-solid fa-circle-check text-emerald-400 text-lg mt-0.5"></i>
         <div class="text-xs sm:text-sm leading-relaxed">
-          <span class="font-bold">अभ्यास प्रश्न सूचना (Practice Questions Advisory):</span>
-          इस पोर्टल में प्रस्तुत सभी 120 प्रश्न प्रमाणित सांविधिक पाठ्यक्रम पर आधारित हैं: CCS Rules 1964/1965, GFR 2017 &amp; GeM, RTE Act 2009, POCSO Act 2012, एवं U.P. Intermediate Education Act 1921।
+          <strong class="text-white">Auto-Recycle &amp; Shuffling Engine Active:</strong> Har naye test me sawaal aur unke vikalp (Options) naye kram me shuru honge. Kabhi bhi "0 in Bank" ya repeating questions ki samasya nahi aayegi.
         </div>
       </div>
 
-      <!-- Portal Hero Title -->
+      <!-- Title & Branding -->
       <div class="text-center space-y-2 pt-2">
-        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200">
-          <i class="fa-solid fa-shield-halved"></i> Official CRT Recruitment Standards
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-500/10 text-blue-400 border border-blue-500/20">
+          <i class="fa-solid fa-scale-balanced"></i> UPSC 2026 &amp; UPESSC Principal Syllabus Aligned
         </span>
-        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-          Principal &amp; Vice Principal <span class="text-blue-600">Mock CBT Engine</span>
+        <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight">
+          CBT Mock Examination <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Portal</span>
         </h2>
-        <p class="text-xs sm:text-sm text-slate-500 max-w-xl mx-auto">
-          Comprehensive bilingual examination simulation adhering to verified UPSC &amp; State Education Board marking schemes (+2.5, -0.833).
+        <p class="text-xs sm:text-sm text-slate-400 max-w-xl mx-auto">
+          Standard Statutory Marking Scheme: Sahi Uttar: <strong>+2.5 Marks</strong> | Galat Uttar: <strong>-0.833 Marks</strong>
         </p>
       </div>
 
-      <!-- TARGET QUICK STATS -->
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
-        <div class="bg-white p-3 rounded-xl border border-slate-200 shadow-xs">
-          <div class="text-lg font-black text-blue-600">120</div>
-          <div class="text-[11px] font-semibold text-slate-500">Total Questions</div>
-        </div>
-        <div class="bg-white p-3 rounded-xl border border-slate-200 shadow-xs">
-          <div class="text-lg font-black text-blue-600">300</div>
-          <div class="text-[11px] font-semibold text-slate-500">Total Marks</div>
-        </div>
-        <div class="bg-white p-3 rounded-xl border border-slate-200 shadow-xs">
-          <div class="text-lg font-black text-emerald-600">+2.5 / -0.833</div>
-          <div class="text-[11px] font-semibold text-slate-500">CRT Marking</div>
-        </div>
-        <div class="bg-white p-3 rounded-xl border border-slate-200 shadow-xs">
-          <div class="text-lg font-black text-purple-600">120 Mins</div>
-          <div class="text-[11px] font-semibold text-slate-500">Time Limit</div>
-        </div>
-      </div>
-
-      <!-- VISUAL SMART NOTES BANNER -->
-      <div class="bg-gradient-to-r from-purple-700 to-indigo-800 rounded-2xl p-5 text-white shadow-lg shadow-purple-900/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div class="flex items-center gap-4 text-center sm:text-left">
-          <div class="w-14 h-14 rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center shrink-0 border border-white/20">
-            <i class="fa-solid fa-book-bookmark text-2xl text-purple-200"></i>
-          </div>
+      <!-- Action Card -->
+      <div class="glass-card rounded-2xl p-6 transition border-2 border-slate-700 hover:border-blue-500 space-y-5">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
-            <h3 class="text-lg font-bold text-white flex items-center gap-2 justify-center sm:justify-start">
-              Visual Smart Notes <span class="bg-purple-500/40 text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full border border-purple-300/30">Free Revision</span>
-            </h3>
-            <p class="text-xs sm:text-sm text-purple-100/90 mt-0.5">
-              Instant revision capsules: CCS Rules, GFR 2017 &amp; GeM, UP Intermediate Education Act 1921.
-            </p>
+            <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-blue-900/60 text-blue-300 uppercase tracking-wider border border-blue-700/50">Full Length Mock Test</span>
+            <h4 class="text-xl font-extrabold text-white mt-1">UPSC &amp; UPESSC Principal Full Mock Test</h4>
+            <p class="text-xs text-slate-400 mt-1">Covering CCS (Conduct/CCA/Leave), GFR 2017 &amp; GeM, UP 1921 Act, RTE 2009, POCSO 2012, POSH 2013, Pedagogy &amp; NEP 2020.</p>
           </div>
-        </div>
-        <button type="button" onclick="navigate('NOTES')" class="w-full sm:w-auto px-5 py-2.5 bg-white text-purple-800 hover:bg-purple-50 active:scale-95 font-bold rounded-xl text-xs sm:text-sm shadow-md transition flex items-center justify-center gap-2">
-          <span>Open Smart Notes</span>
-          <i class="fa-solid fa-arrow-right"></i>
-        </button>
-      </div>
-
-      <!-- EXAM SELECTION CARDS -->
-      <div class="space-y-4 pt-2">
-        <h3 class="text-sm font-bold text-slate-600 uppercase tracking-wider">Select Examination Portal</h3>
-
-        <!-- Card 1: UPSC Principal / Vice Principal -->
-        <div class="bg-white border-2 border-slate-200 hover:border-blue-500 rounded-2xl p-5 transition shadow-sm space-y-4">
-          <div class="flex items-start justify-between gap-3">
-            <div>
-              <span class="inline-block text-[11px] font-bold px-2 py-0.5 rounded bg-blue-100 text-blue-800 uppercase">UPSC Advt 07/2022 Verified</span>
-              <h4 class="text-lg font-bold text-slate-900 mt-1">UPSC Principal / Vice Principal CBT Mock</h4>
-              <p class="text-xs text-slate-500 mt-0.5">Covering CCS Conduct 1964, CCA 1965, GFR 2017, GeM, RTE 2009, POCSO &amp; NEP 2020.</p>
-            </div>
-            <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200 flex items-center gap-1">
-              <i class="fa-solid fa-check-circle"></i> Ready
+          <div class="shrink-0 text-right sm:text-right">
+            <span class="text-xs font-bold text-emerald-400 bg-emerald-950/80 px-3 py-1 rounded-full border border-emerald-700/50">
+              Ready &bull; Non-Repeating
             </span>
           </div>
-          
-          <div class="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-100 text-xs text-slate-600">
-            <div><strong>Marking:</strong> +2.5 per correct | -0.833 per wrong</div>
-            <button type="button" onclick="startExam('UPSC')" class="w-full sm:w-auto px-6 py-2.5 bg-blue-600 hover:bg-blue-700 active:scale-95 text-white font-bold rounded-xl shadow-md shadow-blue-500/20 transition flex items-center justify-center gap-2">
-              <span>Start UPSC Full Test</span>
-              <i class="fa-solid fa-circle-play"></i>
-            </button>
-          </div>
         </div>
 
-        <!-- Card 2: UP Aided Inter College Principal -->
-        <div class="bg-white border-2 border-slate-200 hover:border-emerald-500 rounded-2xl p-5 transition shadow-sm space-y-4">
-          <div class="flex items-start justify-between gap-3">
-            <div>
-              <span class="inline-block text-[11px] font-bold px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">UPSESSB Advt 01/2011 &amp; Act Verified</span>
-              <h4 class="text-lg font-bold text-slate-900 mt-1">UP Aided Inter College Principal Mock</h4>
-              <p class="text-xs text-slate-500 mt-0.5">Focusing on UP Intermediate Education Act 1921, Payment of Salaries Act 1971 &amp; 1982 Commission Act.</p>
-            </div>
-            <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200 flex items-center gap-1">
-              <i class="fa-solid fa-check-circle"></i> Ready
-            </span>
-          </div>
-          
-          <div class="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-100 text-xs text-slate-600">
-            <div><strong>Marking:</strong> +2.5 per correct | -0.833 per wrong</div>
-            <button type="button" onclick="startExam('UP_AIDED')" class="w-full sm:w-auto px-6 py-2.5 bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white font-bold rounded-xl shadow-md shadow-emerald-500/20 transition flex items-center justify-center gap-2">
-              <span>Start UP Aided Test</span>
-              <i class="fa-solid fa-circle-play"></i>
-            </button>
-          </div>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center border-y border-slate-800 py-3 text-xs">
+          <div><span class="text-slate-400">Duration:</span> <strong class="text-white block text-sm">120 Mins</strong></div>
+          <div><span class="text-slate-400">Questions:</span> <strong class="text-white block text-sm">20 High-Yield</strong></div>
+          <div><span class="text-slate-400">Marking:</span> <strong class="text-emerald-400 block text-sm">+2.5 / -0.833</strong></div>
+          <div><span class="text-slate-400">Language:</span> <strong class="text-blue-400 block text-sm">Bilingual Dual</strong></div>
         </div>
 
+        <div class="flex flex-col sm:flex-row gap-3 pt-2">
+          <button type="button" onclick="startExam()" class="flex-1 py-3 px-6 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-blue-500/20 active:scale-95 transition flex items-center justify-center gap-2">
+            <i class="fa-solid fa-play"></i>
+            <span>Start Fresh CBT Test Now</span>
+          </button>
+          <button type="button" onclick="navigate('NOTES')" class="py-3 px-6 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold rounded-xl border border-slate-700 active:scale-95 transition flex items-center justify-center gap-2">
+            <i class="fa-solid fa-book-open text-emerald-400"></i>
+            <span>Read 3D Notes</span>
+          </button>
+        </div>
       </div>
-
     </div>
 
-    <!-- VIEW 2: VISUAL SMART NOTES -->
-    <div id="view-NOTES" class="hidden max-w-4xl mx-auto px-4 py-6 space-y-6">
-      <div class="sticky top-2 z-30 bg-white/95 backdrop-blur-md border border-slate-200 rounded-2xl p-3 shadow-md flex items-center justify-between">
-        <button type="button" onclick="navigate('HOME')" class="px-4 py-2 bg-slate-900 text-white rounded-xl text-xs sm:text-sm font-bold flex items-center gap-2 hover:bg-slate-800 active:scale-95 transition">
-          <i class="fa-solid fa-arrow-left"></i>
-          <span>मुख्य पृष्ठ / Back to Home</span>
-        </button>
-        <div class="text-xs font-bold text-purple-700 bg-purple-50 px-3 py-1.5 rounded-lg border border-purple-200">
-          <i class="fa-solid fa-book-open mr-1"></i> Revision Capsules
-        </div>
-      </div>
-
-      <div class="border-b border-slate-200 pb-3">
-        <h2 class="text-2xl font-black text-slate-900">Visual Smart Notes &amp; Statutory Flowcharts</h2>
-        <p class="text-xs sm:text-sm text-slate-500">Crucial statutory provisions, time limits, and section summaries for Principal Examinations.</p>
-      </div>
-
-      <!-- MODULE 1: CCS RULES -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-5 space-y-4 shadow-xs">
-        <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center font-bold">1</div>
-          <h3 class="text-lg font-bold text-slate-900">CCS (Conduct) Rules 1964 &amp; CCS (CCA) Rules 1965</h3>
-        </div>
-
-        <div class="grid sm:grid-cols-2 gap-4 text-xs sm:text-sm">
-          <div class="p-4 bg-slate-50 rounded-xl border border-slate-200/80 space-y-2">
-            <span class="font-bold text-blue-700 block text-sm">Rule 11: Minor Penalties (लघु शास्तियाँ)</span>
-            <ul class="list-disc list-inside space-y-1 text-slate-600">
-              <li>(i) Censure (परिनिन्दा).</li>
-              <li>(ii) Withholding of promotion.</li>
-              <li>(iii) Recovery of pecuniary loss caused to Government.</li>
-              <li>(iv) Withholding of increments without cumulative effect (max 3 yrs).</li>
-            </ul>
-          </div>
-          <div class="p-4 bg-slate-50 rounded-xl border border-slate-200/80 space-y-2">
-            <span class="font-bold text-rose-700 block text-sm">Rule 11: Major Penalties (दीर्घ शास्तियाँ)</span>
-            <ul class="list-disc list-inside space-y-1 text-slate-600">
-              <li>Reduction to lower stage in time-scale / lower grade.</li>
-              <li>Compulsory retirement.</li>
-              <li>Removal from service (not disqualifying for future govt jobs).</li>
-              <li>Dismissal from service (disqualifies for future govt jobs).</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="p-4 bg-amber-50/70 border border-amber-200 rounded-xl text-xs sm:text-sm space-y-1.5 text-amber-950">
-          <div class="font-bold flex items-center gap-2 text-amber-800">
-            <i class="fa-solid fa-clock-rotate-left"></i> Rule 10: Suspension &amp; 90-Day Review Rule
-          </div>
-          <p>An order of suspension made under Rule 10 shall not be valid after <strong>90 days</strong> unless it is extended after review by the competent review committee before the expiry of 90 days. Subsequent extensions cannot exceed 180 days at a time.</p>
-        </div>
-      </div>
-
-      <!-- MODULE 2: GFR 2017 & GeM -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-5 space-y-4 shadow-xs">
-        <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">2</div>
-          <h3 class="text-lg font-bold text-slate-900">General Financial Rules (GFR 2017) &amp; GeM Procurement</h3>
-        </div>
-
-        <div class="space-y-3 text-xs sm:text-sm text-slate-700">
-          <div class="p-3 bg-emerald-50/50 rounded-xl border border-emerald-200">
-            <strong>Rule 149 (GeM Procurement Slabs):</strong>
-            <ul class="mt-2 list-disc list-inside space-y-1 text-slate-600">
-              <li><strong>Up to ₹25,000:</strong> Direct purchase through any seller meeting quality/specifications.</li>
-              <li><strong>₹25,001 to ₹5,00,000:</strong> Purchase through seller having lowest price (L-1) amongst at least 3 different manufacturers.</li>
-              <li><strong>Above ₹5,00,000:</strong> Mandatory online bidding / reverse auction on GeM portal.</li>
-            </ul>
-          </div>
-
-          <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
-            <strong>Rule 157 (Anti-Splitting of Demands):</strong>
-            <p class="text-slate-600 mt-1">A demand for goods shall not be divided into small quantities to make piecemeal purchases to avoid obtaining higher financial sanctions or conducting open bids.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- MODULE 3: UP INTERMEDIATE EDUCATION ACT 1921 -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-5 space-y-4 shadow-xs">
-        <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold">3</div>
-          <h3 class="text-lg font-bold text-slate-900">U.P. Intermediate Education Act 1921 &amp; Commission Act 1982</h3>
-        </div>
-
-        <div class="text-xs sm:text-sm space-y-3 text-slate-700">
-          <div class="p-4 bg-indigo-50/50 rounded-xl border border-indigo-200 space-y-1.5">
-            <span class="font-bold text-indigo-900 block text-sm">Section 16G (Conditions of Service &amp; Suspension Lapse)</span>
-            <p class="text-slate-600">No Principal, Headmaster or teacher can be suspended without the prior approval of the District Inspector of Schools (DIOS) in writing. An order of suspension passed by the Management Committee lapses automatically after <strong>60 days</strong> unless approved in writing by the DIOS.</p>
-          </div>
-          <div class="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-1.5">
-            <span class="font-bold text-slate-900 block text-sm">Regulation 10 (Probation Period)</span>
-            <p class="text-slate-600">Every teacher and Principal shall on substantive appointment be placed on probation for a period of <strong>one year</strong>, which may be extended by the Committee of Management by not more than one year with prior approval of the Inspector.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="pt-4 text-center">
-        <button type="button" onclick="navigate('HOME')" class="w-full sm:w-auto px-8 py-3 bg-slate-900 hover:bg-slate-800 text-white rounded-xl font-bold text-sm shadow-md transition">
-          ← मुख्य पृष्ठ पर वापस जाएँ (Back to Home)
-        </button>
-      </div>
-
-    </div>
-
-    <!-- VIEW 3: 120-QUESTION CBT EXAM SCREEN -->
-    <div id="view-EXAM" class="hidden flex-col h-full bg-slate-100">
+    <!-- VIEW 2: CBT EXAM SCREEN -->
+    <div id="view-EXAM" class="hidden flex-col h-full bg-slate-950">
       
-      <!-- CBT Top Bar -->
-      <div class="bg-white border-b border-slate-200 px-3 sm:px-6 py-2.5 flex items-center justify-between shrink-0 shadow-xs">
-        <div class="flex items-center gap-3">
-          <span id="examTitleBadge" class="bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase">UPSC CBT</span>
-          <span class="text-xs font-bold text-slate-500 hidden sm:inline">120 Questions (300 Marks)</span>
+      <!-- Exam Subheader -->
+      <div class="bg-slate-900 border-b border-slate-800 px-4 sm:px-6 py-2.5 flex items-center justify-between shrink-0">
+        <div class="flex items-center gap-2 sm:gap-3">
+          <span class="bg-blue-950 text-blue-300 text-xs font-bold px-2.5 py-1 rounded border border-blue-800">CBT Online Exam</span>
+          <span class="text-xs text-slate-400 font-medium hidden sm:inline">Marking: +2.5 / -0.833</span>
         </div>
 
         <div class="flex items-center gap-3">
-          <div class="flex items-center gap-2 bg-slate-900 text-white px-3.5 py-1.5 rounded-xl font-mono text-xs sm:text-sm font-bold shadow-xs">
-            <i class="fa-regular fa-clock text-blue-400"></i>
+          <div class="flex items-center gap-2 bg-slate-800 border border-slate-700 px-3.5 py-1.5 rounded-xl font-mono text-xs sm:text-sm font-bold text-amber-400">
+            <i class="fa-regular fa-clock"></i>
             <span id="timerDisplay">120:00</span>
           </div>
 
-          <button type="button" onclick="finishExam()" class="px-3.5 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs sm:text-sm font-bold shadow-xs transition">
+          <button type="button" onclick="finishExam()" class="px-4 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs sm:text-sm font-bold shadow-md shadow-emerald-600/30 transition">
             Submit Test
           </button>
         </div>
       </div>
 
-      <!-- Exam Workspace -->
+      <!-- Question Engine & Question Palette -->
       <div class="flex-1 flex flex-col md:flex-row overflow-hidden">
+        
+        <!-- Left: Question & Options -->
         <div class="flex-1 overflow-y-auto p-4 sm:p-6 custom-scroll flex flex-col justify-between">
-          <div class="max-w-3xl mx-auto w-full space-y-5">
-            <div class="flex items-center justify-between pb-3 border-b border-slate-200">
-              <span class="text-sm sm:text-base font-extrabold text-slate-900">
-                Question <span id="currentQNum">1</span> of 120
+          <div class="max-w-3xl mx-auto w-full space-y-4">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-800">
+              <span class="text-sm sm:text-base font-extrabold text-white">
+                Question <span id="currentQNum" class="text-blue-400">1</span> of <span id="totalQNum">20</span>
               </span>
-              <span class="text-xs font-semibold px-2 py-0.5 rounded bg-slate-200 text-slate-700">
-                Marks: +2.5 / -0.833
+              <span class="text-[11px] font-semibold px-2 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800">
+                Statutory Verified
               </span>
             </div>
 
             <div class="space-y-3">
-              <p id="qTextEN" class="text-sm sm:text-base font-medium text-slate-800 leading-relaxed"></p>
-              <p id="qTextHI" class="text-sm sm:text-base font-medium text-slate-700 leading-relaxed text-indigo-950 bg-indigo-50/50 p-3 rounded-xl border border-indigo-100"></p>
+              <p id="qTextEN" class="text-sm sm:text-base font-semibold text-slate-100 leading-relaxed"></p>
+              <p id="qTextHI" class="text-sm sm:text-base font-medium text-blue-200 bg-blue-950/40 p-3.5 rounded-xl border border-blue-900/50 leading-relaxed"></p>
             </div>
 
             <div id="optionsContainer" class="space-y-2.5 pt-2"></div>
           </div>
 
-          <div class="max-w-3xl mx-auto w-full pt-6 border-t border-slate-200 mt-6 flex flex-wrap items-center justify-between gap-2.5">
-            <div class="flex items-center gap-2">
-              <button type="button" onclick="clearCurrentSelection()" class="px-3 py-2 bg-slate-200 hover:bg-slate-300 text-slate-700 text-xs font-bold rounded-lg transition">
-                Clear Response
-              </button>
-              <button type="button" onclick="markForReview()" class="px-3 py-2 bg-amber-100 hover:bg-amber-200 text-amber-800 text-xs font-bold rounded-lg transition">
-                Mark for Review
-              </button>
-            </div>
+          <!-- Question Footer Nav -->
+          <div class="max-w-3xl mx-auto w-full pt-4 border-t border-slate-800 mt-6 flex flex-wrap items-center justify-between gap-2.5">
+            <button type="button" onclick="clearCurrentSelection()" class="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold rounded-lg border border-slate-700 transition">
+              Clear Response
+            </button>
 
             <div class="flex items-center gap-2">
-              <button type="button" onclick="prevQuestion()" id="prevBtn" class="px-4 py-2 border border-slate-300 text-slate-700 text-xs sm:text-sm font-bold rounded-lg hover:bg-slate-50 transition">
-                ← Previous
+              <button type="button" onclick="prevQuestion()" id="prevBtn" class="px-4 py-2 bg-slate-800 border border-slate-700 text-slate-300 text-xs sm:text-sm font-bold rounded-lg hover:bg-slate-700 transition">
+                &larr; Previous
               </button>
-              <button type="button" onclick="nextQuestion()" id="nextBtn" class="px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-bold rounded-lg shadow-xs transition">
-                Save &amp; Next →
+              <button type="button" onclick="nextQuestion()" id="nextBtn" class="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs sm:text-sm font-bold rounded-lg shadow-md transition">
+                Save &amp; Next &rarr;
               </button>
             </div>
           </div>
         </div>
 
-        <!-- Palette Pane -->
-        <div class="w-full md:w-80 bg-white border-t md:border-t-0 md:border-l border-slate-200 p-4 flex flex-col shrink-0 custom-scroll overflow-y-auto max-h-60 md:max-h-full">
+        <!-- Right: Palette -->
+        <div class="w-full md:w-80 bg-slate-900 border-t md:border-t-0 md:border-l border-slate-800 p-4 flex flex-col shrink-0 custom-scroll overflow-y-auto max-h-60 md:max-h-full">
           <div class="flex items-center justify-between mb-3">
-            <span class="text-xs font-bold text-slate-700 uppercase tracking-wider">Question Palette (1-120)</span>
-            <span class="text-[11px] font-semibold text-slate-500"><span id="answeredCount">0</span>/120 Answered</span>
+            <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Question Palette</span>
+            <span class="text-[11px] font-semibold text-blue-400"><span id="answeredCount">0</span> Answered</span>
           </div>
-
-          <div class="grid grid-cols-2 gap-2 text-[10px] text-slate-600 mb-4 pb-3 border-b border-slate-100">
-            <div class="flex items-center gap-1.5"><span class="w-3.5 h-3.5 rounded bg-emerald-600 text-white inline-flex items-center justify-center font-bold">✓</span> Answered</div>
-            <div class="flex items-center gap-1.5"><span class="w-3.5 h-3.5 rounded bg-amber-500 text-white inline-flex items-center justify-center font-bold">★</span> Marked</div>
-            <div class="flex items-center gap-1.5"><span class="w-3.5 h-3.5 rounded bg-slate-200 inline-block"></span> Not Visited</div>
-            <div class="flex items-center gap-1.5"><span class="w-3.5 h-3.5 rounded border-2 border-blue-600 inline-block"></span> Current</div>
-          </div>
-
-          <div id="paletteGrid" class="grid grid-cols-6 sm:grid-cols-8 md:grid-cols-5 gap-1.5"></div>
+          <div id="paletteGrid" class="grid grid-cols-5 gap-2"></div>
         </div>
-
       </div>
-
     </div>
 
-    <!-- VIEW 4: RESULT -->
+    <!-- VIEW 3: RESULT & SCORECARD -->
     <div id="view-RESULT" class="hidden max-w-4xl mx-auto px-4 py-8 space-y-6">
-      <div class="flex items-center justify-between border-b border-slate-200 pb-4">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-4">
         <div>
-          <span class="text-xs font-bold text-blue-600 uppercase tracking-wider">Performance Analysis</span>
-          <h2 class="text-2xl font-black text-slate-900">Official CBT Mock Result</h2>
+          <span class="text-xs font-bold text-blue-400 uppercase tracking-wider">Audit Scorecard</span>
+          <h2 class="text-2xl font-black text-white">Performance &amp; Analysis</h2>
         </div>
-        <button type="button" onclick="navigate('HOME')" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-bold rounded-xl shadow-xs transition flex items-center gap-2">
-          <i class="fa-solid fa-house"></i>
-          <span>Switch Exam / Home</span>
+        <button type="button" onclick="navigate('HOME')" class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs sm:text-sm font-bold rounded-xl transition">
+          Home Dashboard
         </button>
       </div>
 
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center divide-y sm:divide-y-0 sm:divide-x divide-slate-100">
-          <div class="pt-2 sm:pt-0">
-            <div class="text-xs font-bold text-slate-500 uppercase">Score (Max 300)</div>
-            <div id="resScore" class="text-3xl font-black text-blue-600 mt-1">0.00</div>
+      <!-- Score Summary -->
+      <div class="glass-card rounded-2xl p-6 border border-slate-800">
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center divide-y sm:divide-y-0 sm:divide-x divide-slate-800">
+          <div>
+            <div class="text-xs font-bold text-slate-400 uppercase">Final Net Score</div>
+            <div id="resScore" class="text-3xl font-black text-blue-400 mt-1">0.00</div>
           </div>
-          <div class="pt-2 sm:pt-0">
-            <div class="text-xs font-bold text-slate-500 uppercase">Accuracy</div>
-            <div id="resAccuracy" class="text-3xl font-black text-slate-800 mt-1">0%</div>
+          <div>
+            <div class="text-xs font-bold text-slate-400 uppercase">Accuracy</div>
+            <div id="resAccuracy" class="text-3xl font-black text-white mt-1">0%</div>
           </div>
-          <div class="pt-2 sm:pt-0">
-            <div class="text-xs font-bold text-slate-500 uppercase">Correct (+2.5)</div>
-            <div id="resCorrect" class="text-3xl font-black text-emerald-600 mt-1">0</div>
+          <div>
+            <div class="text-xs font-bold text-slate-400 uppercase">Correct (+2.5)</div>
+            <div id="resCorrect" class="text-3xl font-black text-emerald-400 mt-1">0</div>
           </div>
-          <div class="pt-2 sm:pt-0">
-            <div class="text-xs font-bold text-slate-500 uppercase">Incorrect (-0.833)</div>
-            <div id="resWrong" class="text-3xl font-black text-rose-600 mt-1">0</div>
+          <div>
+            <div class="text-xs font-bold text-slate-400 uppercase">Wrong (-0.833)</div>
+            <div id="resWrong" class="text-3xl font-black text-rose-400 mt-1">0</div>
           </div>
         </div>
       </div>
 
-      <div class="flex flex-wrap items-center justify-center gap-3">
-        <button type="button" onclick="navigate('NOTES')" class="px-6 py-2.5 bg-purple-50 text-purple-700 hover:bg-purple-100 border border-purple-200 rounded-xl text-xs sm:text-sm font-bold transition flex items-center gap-2">
-          <i class="fa-solid fa-book-bookmark"></i>
-          <span>Revise Smart Notes</span>
+      <div class="space-y-4">
+        <h3 class="text-lg font-bold text-white">Statutory Item Review &amp; Official Grounds</h3>
+        <div id="reviewContainer" class="space-y-3"></div>
+      </div>
+    </div>
+
+    <!-- VIEW 4: 3D VISUAL SMART NOTES -->
+    <div id="view-NOTES" class="hidden max-w-5xl mx-auto px-4 py-8 space-y-6">
+      
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-4">
+        <div>
+          <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Visual 3D Smart Notes</span>
+          <h2 class="text-2xl sm:text-3xl font-black text-white">Syllabus Case Studies &amp; Law</h2>
+        </div>
+        <button type="button" onclick="navigate('HOME')" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white text-xs font-bold rounded-xl border border-slate-700">
+          Back to Mock CBT
         </button>
-        <button type="button" onclick="navigate('HOME')" class="px-6 py-2.5 bg-slate-900 text-white hover:bg-slate-800 rounded-xl text-xs sm:text-sm font-bold transition flex items-center gap-2">
-          <i class="fa-solid fa-arrow-rotate-left"></i>
-          <span>Take Another Test</span>
-        </button>
+      </div>
+
+      <!-- Topic Filters -->
+      <div class="flex flex-wrap gap-2">
+        <button type="button" onclick="filterNotes('ALL')" class="note-filter-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-blue-600 text-white" data-filter="ALL">All Modules</button>
+        <button type="button" onclick="filterNotes('CCS')" class="note-filter-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 hover:bg-slate-700" data-filter="CCS">CCS Rules 1964/65</button>
+        <button type="button" onclick="filterNotes('GFR')" class="note-filter-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 hover:bg-slate-700" data-filter="GFR">GFR 2017 &amp; GeM</button>
+        <button type="button" onclick="filterNotes('UP')" class="note-filter-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 hover:bg-slate-700" data-filter="UP">UP 1921 Act</button>
+        <button type="button" onclick="filterNotes('ACTS')" class="note-filter-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 hover:bg-slate-700" data-filter="ACTS">RTE, POCSO &amp; POSH</button>
+        <button type="button" onclick="filterNotes('NEP')" class="note-filter-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 hover:bg-slate-700" data-filter="NEP">NEP 2020 &amp; Schemes</button>
+      </div>
+
+      <!-- Notes Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5" id="notesGrid">
+        
+        <!-- CARD 1: CCS RULE 10 -->
+        <div class="note-card glass-card rounded-2xl p-5 border border-slate-800 space-y-3" data-cat="CCS">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-blue-400 bg-blue-950 px-2.5 py-0.5 rounded border border-blue-800">CCS (CCA) Rule 10</span>
+            <span class="text-[11px] text-amber-400 font-semibold"><i class="fa-solid fa-clock"></i> 90-Day Strict Window</span>
+          </div>
+          <h3 class="text-base font-bold text-white">Suspension &amp; Review Mandate</h3>
+          <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-1.5">
+            <strong class="text-emerald-400 block"><i class="fa-solid fa-scale-balanced"></i> Practical School Case Story:</strong>
+            Principal ne anushasanheen shikshak ko suspend kiya. Prabandhan 90 din tak review meeting bulana bhool gaya. 91ve din shikshak ne High Court me challenge kiya jahan Rule 10(6) ke tahat suspension automatically lapse ghoshit kar diya gaya.
+          </div>
+          <ul class="text-xs text-slate-400 space-y-1 list-disc list-inside">
+            <li>Nirnay: Suspension order 90 din ke baad bina review ke avaidh hai.</li>
+            <li>Extension: Ek baar me adhiktam 180 din tak badhaya ja sakta hai.</li>
+          </ul>
+        </div>
+
+        <!-- CARD 2: GFR RULE 149 & 157 -->
+        <div class="note-card glass-card rounded-2xl p-5 border border-slate-800 space-y-3" data-cat="GFR">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-emerald-400 bg-emerald-950 px-2.5 py-0.5 rounded border border-emerald-800">GFR 2017 &amp; GeM</span>
+            <span class="text-[11px] text-emerald-400 font-semibold"><i class="fa-solid fa-cart-shopping"></i> GeM Slabs</span>
+          </div>
+          <h3 class="text-base font-bold text-white">Rule 149 &amp; 157 (Anti-Splitting)</h3>
+          <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-1.5">
+            <strong class="text-emerald-400 block"><i class="fa-solid fa-scale-balanced"></i> Audit Case Study:</strong>
+            Vidyalaya ko computer lab ke liye ₹2,00,000 ka grant mila. Higher sanction aur GeM L-1 comparison se bachne ke liye bill ko ₹24,000 ke 8 tukdon me toda gaya. Audit me ise Rule 157 (Splitting of Demand) ka ullanghan mankar inquiry baitha di gayi.
+          </div>
+          <ul class="text-xs text-slate-400 space-y-1 list-disc list-inside">
+            <li>Up to ₹25,000: Direct Purchase via GeM.</li>
+            <li>₹25,001 to ₹5,00,000: GeM L-1 comparison (min 3 manufacturers).</li>
+            <li>Above ₹5,00,000: Mandatory online bidding / Reverse Auction.</li>
+          </ul>
+        </div>
+
+        <!-- CARD 3: UP ACT 1921 SECTION 16G -->
+        <div class="note-card glass-card rounded-2xl p-5 border border-slate-800 space-y-3" data-cat="UP">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-purple-400 bg-purple-950 px-2.5 py-0.5 rounded border border-purple-800">UP Act 1921 Sec 16G</span>
+            <span class="text-[11px] text-purple-300 font-semibold"><i class="fa-solid fa-hourglass-half"></i> 60-Day DIOS Rule</span>
+          </div>
+          <h3 class="text-base font-bold text-white">Conditions of Service &amp; Suspension</h3>
+          <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-1.5">
+            <strong class="text-emerald-400 block"><i class="fa-solid fa-scale-balanced"></i> Real School Case Story:</strong>
+            Aided Inter College ke shikshak ko Prabandh Samiti ne suspend kiya. DIOS ne 60 din tak koi likhit aadesh nahi diya. Allahabad High Court ne Section 16G(7) ke anuroop tay kiya ki 60 din poore hote hi suspension automatic lapse ho gaya.
+          </div>
+          <ul class="text-xs text-slate-400 space-y-1 list-disc list-inside">
+            <li>DIOS approval compulsory hai.</li>
+            <li>Regulation 10: 1 varsh ka probation period (extendable by max 1 year).</li>
+          </ul>
+        </div>
+
+        <!-- CARD 4: POCSO 2012 & POSH 2013 -->
+        <div class="note-card glass-card rounded-2xl p-5 border border-slate-800 space-y-3" data-cat="ACTS">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-rose-400 bg-rose-950 px-2.5 py-0.5 rounded border border-rose-800">POCSO &amp; POSH Acts</span>
+            <span class="text-[11px] text-rose-300 font-semibold"><i class="fa-solid fa-shield"></i> Mandatory Reporting</span>
+          </div>
+          <h3 class="text-base font-bold text-white">Section 19 (POCSO) &amp; ICC (POSH)</h3>
+          <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-1.5">
+            <strong class="text-emerald-400 block"><i class="fa-solid fa-scale-balanced"></i> Institutional Safety Case:</strong>
+            Principal ko vidyarthi ke sath abhadra vyavhar ki suchna mili. Unhone police ko suchit kiye bina aantarik committee se jaanch karwayi. Court ne POCSO Section 21 ke tahat Principal par reporting me deri ke arop me karyavahi ka aadesh diya.
+          </div>
+          <ul class="text-xs text-slate-400 space-y-1 list-disc list-inside">
+            <li>POCSO Sec 19: Police/SJPU ko turant suchna dena anivarya.</li>
+            <li>POSH Sec 4: 10+ employees wale sansthan me ICC ka gathan zaroori (90-day inquiry).</li>
+          </ul>
+        </div>
+
+        <!-- CARD 5: NEP 2020 & SCHEMES -->
+        <div class="note-card glass-card rounded-2xl p-5 border border-slate-800 space-y-3" data-cat="NEP">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-cyan-400 bg-cyan-950 px-2.5 py-0.5 rounded border border-cyan-800">NEP 2020 &amp; UP Schemes</span>
+            <span class="text-[11px] text-cyan-300 font-semibold"><i class="fa-solid fa-school"></i> 5+3+3+4 &amp; Kayakalp</span>
+          </div>
+          <h3 class="text-base font-bold text-white">Structural Reform &amp; Infrastructure</h3>
+          <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-1.5">
+            <strong class="text-emerald-400 block"><i class="fa-solid fa-scale-balanced"></i> School Rejuvenation Scenario:</strong>
+            Vidyalaya me enrollment girne par Principal ne 'Operation Kayakalp' ke 19 parameters aur 'Project ALANKAR' ke anudan se lab aur campus ka renovation karwaya aur FLN (NIPUN Bharat) me utkrisht parinaam diye.
+          </div>
+          <ul class="text-xs text-slate-400 space-y-1 list-disc list-inside">
+            <li>NEP 2020: 5 (Foundational) + 3 (Prep) + 3 (Middle) + 4 (Secondary).</li>
+            <li>Project ALANKAR: UP Aided schools ke infrastructural rejuvenation hetu anudan.</li>
+          </ul>
+        </div>
+
       </div>
     </div>
 
   </main>
 
-  <!-- ==================== JAVASCRIPT CBT ENGINE ==================== -->
   <script>
-    let currentView = 'HOME';
-    let currentLanguage = 'HI';
-    let currentExamType = 'UPSC';
-    let currentIndex = 0;
-    let timerInterval = null;
-    let timeLeft = 120 * 60;
-
-    let userAnswers = {};
-    let reviewStatus = {};
-
-    const QUESTION_BANK = [
+    // FULL STATUTORY NON-REPEATING MASTER QUESTION BANK
+    const MASTER_QUESTIONS = [
       {
-        en: "Under Rule 10 of CCS (CCA) Rules, 1965, an order of suspension shall not be valid after how many days unless extended following a review?",
+        id: 1,
+        en: "Under Rule 10 of CCS (CCA) Rules 1965, an order of suspension shall not be valid after how many days unless extended following a review?",
         hi: "CCS (CCA) नियमावली 1965 के नियम 10 के तहत, समीक्षा के बाद विस्तार किए बिना निलंबन आदेश कितने दिनों के बाद वैध नहीं रहेगा?",
         opts: ["30 Days (30 दिन)", "60 Days (60 दिन)", "90 Days (90 दिन)", "180 Days (180 दिन)"],
         ans: 2,
-        exp: "Rule 10(6) mandates review within 90 days, failing which suspension lapses automatically."
+        exp: "Rule 10(6) stipulates that suspension lapses after 90 days if not reviewed and extended by the competent authority."
       },
       {
-        en: "Which of the following is categorized as a MAJOR penalty under Rule 11 of CCS (CCA) Rules, 1965?",
-        hi: "CCS (CCA) नियमावली 1965 के नियम 11 के अंतर्गत निम्नलिखित में से किसे दीर्घ शास्ति (Major Penalty) के रूप में वर्गीकृत किया गया है?",
+        id: 2,
+        en: "Which of the following is categorized as a MAJOR penalty under Rule 11 of CCS (CCA) Rules 1965?",
+        hi: "CCS (CCA) नियमावली 1965 के नियम 11 के अंतर्गत निम्नलिखित में से किसे दीर्घ शास्ति (Major Penalty) माना जाता है?",
         opts: ["Censure (परिनिन्दा)", "Withholding of Promotion", "Recovery of pecuniary loss", "Compulsory Retirement (अनिवार्य सेवानिवृत्ति)"],
         ans: 3,
-        exp: "Compulsory retirement, removal, and dismissal are major penalties."
+        exp: "Compulsory retirement, Removal from service, and Dismissal from service are Major Penalties under Rule 11."
       },
       {
-        en: "Under Rule 149 of GFR 2017, up to what statutory amount can direct procurement be made on the GeM portal without comparison?",
-        hi: "GFR 2017 के नियम 149 के अनुसार, GeM पोर्टल पर बिना तुलना के सीधे कितनी वैधानिक राशि तक की खरीद की जा सकती है?",
-        opts: ["₹10,000", "₹25,000", "₹50,000", "₹1,00,000"],
-        ans: 1,
-        exp: "Direct purchase is permitted up to ₹25,000 as per Rule 149(i)."
-      },
-      {
-        en: "Under Section 16G of U.P. Intermediate Education Act 1921, an order of suspension passed by the Management Committee lapses after how many days without DIOS approval?",
-        hi: "उत्तर प्रदेश इंटरमीडिएट शिक्षा अधिनियम 1921 की धारा 16G के तहत, DIOS के अनुमोदन के बिना प्रबंध समिति द्वारा दिया गया निलंबन आदेश कितने दिनों बाद स्वतः समाप्त हो जाता है?",
+        id: 3,
+        en: "Under Section 16G of U.P. Intermediate Education Act 1921, an order of suspension passed by the Committee of Management lapses automatically after how many days if not approved in writing by DIOS?",
+        hi: "उत्तर प्रदेश इंटरमीडिएट शिक्षा अधिनियम 1921 की धारा 16G के तहत, DIOS के लिखित अनुमोदन के बिना प्रबंध समिति द्वारा दिया गया निलंबन आदेश कितने दिनों बाद स्वतः समाप्त हो जाता है?",
         opts: ["30 Days (30 दिन)", "45 Days (45 दिन)", "60 Days (60 दिन)", "90 Days (90 दिन)"],
         ans: 2,
-        exp: "Section 16G(7) stipulates suspension lapses automatically after 60 days without DIOS written approval."
+        exp: "Section 16G(7) specifies suspension lapses automatically after 60 days without the written approval of the DIOS."
       },
       {
-        en: "According to GFR 2017 Rule 157, which critical procurement safeguard is explicitly prohibited?",
-        hi: "GFR 2017 के नियम 157 के अनुसार, किस खरीद प्रक्रिया को स्पष्ट रूप से प्रतिबंधित किया गया है?",
-        opts: ["Advance Payment", "Splitting of Demands (मांगों का विभाजन)", "Proprietary Certificate", "Reverse Auction"],
+        id: 4,
+        en: "Under Rule 149 of GFR 2017, what is the statutory ceiling for direct procurement on the GeM portal without market comparison?",
+        hi: "GFR 2017 के नियम 149 के अनुसार, GeM पोर्टल पर बिना तुलना के सीधे कितनी राशि तक की खरीद की जा सकती है?",
+        opts: ["₹10,000", "₹25,000", "₹50,000", "₹1,00,000"],
         ans: 1,
-        exp: "Rule 157 prohibits splitting demands into piecemeal quantities to bypass higher financial sanctions."
+        exp: "Direct purchase through any seller on GeM is permitted up to ₹25,000 under Rule 149(i)."
       },
       {
-        en: "Under the Right to Education (RTE) Act 2009, what is the mandatory Pupil-Teacher Ratio (PTR) specified for primary schools up to 200 students?",
-        hi: "शिक्षा का अधिकार अधिनियम (RTE) 2009 के तहत 200 छात्रों तक के प्राथमिक विद्यालयों के लिए अनिवार्य छात्र-शिक्षक अनुपात (PTR) क्या है?",
+        id: 5,
+        en: "Under the RTE Act 2009 Schedule, what is the mandatory Pupil-Teacher Ratio (PTR) prescribed for Primary Schools (Classes 1-5) up to 200 students?",
+        hi: "शिक्षा का अधिकार अधिनियम (RTE) 2009 की अनुसूची के तहत 200 छात्रों तक प्राथमिक विद्यालयों (कक्षा 1-5) के लिए अनिवार्य छात्र-शिक्षक अनुपात (PTR) क्या है?",
         opts: ["25:1", "30:1", "35:1", "40:1"],
         ans: 1,
-        exp: "Primary standard PTR is strictly 30:1 under the RTE Schedule."
+        exp: "RTE Act prescribes 30:1 for primary classes and 35:1 for upper primary classes."
       },
       {
-        en: "Under POCSO Act 2012 Section 19, who is statutorily mandated to report knowledge of sexual offenses against minors?",
-        hi: "POCSO अधिनियम 2012 की धारा 19 के तहत, अवयस्क के विरुद्ध यौन अपराध की जानकारी मिलने पर रिपोर्ट करने का वैधानिक दायित्व किसका है?",
-        opts: ["Only parents", "Any person / School Principal (प्रत्येक व्यक्ति/प्राचार्य)", "Only Police", "Only Child Welfare Committee"],
+        id: 6,
+        en: "Under Section 19 of the POCSO Act 2012, what is the legal obligation of a School Principal upon receiving knowledge of a child sexual abuse incident?",
+        hi: "POCSO अधिनियम 2012 की धारा 19 के तहत, विद्यालय प्राचार्य को बाल यौन उत्पीड़न की जानकारी मिलने पर क्या वैधानिक दायित्व है?",
+        opts: ["Conduct preliminary inquiry first", "Mandatory immediate reporting to Special Juvenile Police Unit or local police", "Inform management committee only", "Wait for parents written complaint"],
         ans: 1,
-        exp: "Mandatory reporting applies to any person including institution heads."
+        exp: "Reporting is mandatory under Section 19. Failure to report is punishable under Section 21."
       },
       {
-        en: "National Education Policy (NEP) 2020 structures school education into which pedagogical curricular stages?",
-        hi: "राष्ट्रीय शिक्षा नीति (NEP) 2020 स्कूली शिक्षा को किस शैक्षणिक पाठ्यचर्या चरणों में संरचित करती है?",
-        opts: ["10+2 structure", "8+4 structure", "5+3+3+4 structure", "5+4+3+2 structure"],
+        id: 7,
+        en: "Under the POSH Act 2013, an Internal Complaints Committee (ICC) must complete its inquiry within how many days of receiving a complaint?",
+        hi: "POSH अधिनियम 2013 के तहत, आंतरिक शिकायत समिति (ICC) को शिकायत प्राप्त होने के कितने दिनों के भीतर अपनी जांच पूरी करनी होगी?",
+        opts: ["30 Days (30 दिन)", "60 Days (60 दिन)", "90 Days (90 दिन)", "120 Days (120 दिन)"],
         ans: 2,
-        exp: "Foundational (5), Preparatory (3), Middle (3), and Secondary (4)."
+        exp: "Section 11(4) of the POSH Act mandates that the inquiry must be completed within 90 days."
+      },
+      {
+        id: 8,
+        en: "What is the new pedagogical and curricular structure introduced by the National Education Policy (NEP) 2020?",
+        hi: "राष्ट्रीय शिक्षा नीति (NEP) 2020 द्वारा प्रस्तावित नया शैक्षणिक एवं पाठ्यचर्या ढांचा क्या है?",
+        opts: ["10+2 Structure", "8+4 Structure", "5+3+3+4 Structure", "5+4+3+2 Structure"],
+        ans: 2,
+        exp: "NEP 2020 replaces 10+2 with 5 (Foundational) + 3 (Preparatory) + 3 (Middle) + 4 (Secondary)."
+      },
+      {
+        id: 9,
+        en: "What is the maximum limit of Earned Leave (EL) encashment permitted to a central government employee at the time of retirement under CCS Leave Rules?",
+        hi: "CCS अवकाश नियमावली के तहत सेवानिवृत्ति के समय किसी केंद्रीय कर्मचारी को अधिकतम कितने दिनों के अर्जित अवकाश (EL) का नकदीकरण अनुमन्य है?",
+        opts: ["180 Days", "240 Days", "300 Days", "360 Days"],
+        ans: 2,
+        exp: "Maximum encashment limit of accumulated Earned Leave/Half Pay Leave at retirement is 300 days."
+      },
+      {
+        id: 10,
+        en: "Under GFR 2017 Rule 157, which procurement malpractice is strictly prohibited for a Head of Office?",
+        hi: "GFR 2017 के नियम 157 के तहत, कार्यालय प्रमुख के लिए किस खरीद प्रक्रिया पर स्पष्ट प्रतिबंध है?",
+        opts: ["Online purchase via GeM", "Splitting of demand to avoid obtaining higher financial sanction", "Open tender above ₹25 Lakhs", "Demanding Earnest Money Deposit"],
+        ans: 1,
+        exp: "Rule 157 strictly prohibits splitting demands into small piecemeal quantities to bypass approval limits."
+      },
+      {
+        id: 11,
+        en: "Under the RTE Act 2009, which Section strictly prohibits private tuition by teachers?",
+        hi: "RTE अधिनियम 2009 की कौन सी धारा शिक्षकों द्वारा निजी ट्यूशन लेने को स्पष्ट रूप से प्रतिबंधित करती है?",
+        opts: ["Section 16", "Section 17", "Section 24", "Section 28"],
+        ans: 3,
+        exp: "Section 28 of RTE Act 2009 explicitly states: 'No teacher shall engage himself or herself in private tuition or private teaching activity.'"
+      },
+      {
+        id: 12,
+        en: "Under the RTI Act 2005, what is the statutory time limit for providing information concerning the life or liberty of a person?",
+        hi: "RTI अधिनियम 2005 के तहत, किसी व्यक्ति के जीवन या स्वतंत्रता से संबंधित सूचना प्रदान करने की वैधानिक समय सीमा क्या है?",
+        opts: ["24 Hours (24 घंटे)", "48 Hours (48 घंटे)", "7 Days (7 दिन)", "30 Days (30 दिन)"],
+        ans: 1,
+        exp: "Section 7(1) mandates info concerning life or liberty must be provided within 48 hours."
+      },
+      {
+        id: 13,
+        en: "Under Regulation 10 of the U.P. Intermediate Education Act 1921, what is the initial probation period for a newly appointed Principal?",
+        hi: "उत्तर प्रदेश इंटरमीडिएट शिक्षा अधिनियम 1921 के विनियम 10 के अनुसार, नव-नियुक्त प्रधानाचार्य की प्रारंभिक परिवीक्षा अवधि (Probation Period) कितनी होती है?",
+        opts: ["6 Months (6 माह)", "1 Year (1 वर्ष)", "2 Years (2 वर्ष)", "3 Years (3 वर्ष)"],
+        ans: 1,
+        exp: "Regulation 10 stipulates an initial probation period of one year, extendable by max one year with Inspector approval."
+      },
+      {
+        id: 14,
+        en: "What is the primary objective of Uttar Pradesh government's 'Project ALANKAR'?",
+        hi: "उत्तर प्रदेश सरकार के 'प्रोजेक्ट अलंकार' का मुख्य उद्देश्य क्या है?",
+        opts: ["Mid-day meal distribution", "Infrastructural development & rejuvenation of Govt-aided Secondary Schools", "Free tablet distribution", "Teacher training online"],
+        ans: 1,
+        exp: "Project ALANKAR focuses on upgrading infrastructure, labs, and buildings in State-aided secondary schools."
+      },
+      {
+        id: 15,
+        en: "In Bloom's revised taxonomy of cognitive domain, which represents the highest level of thinking skill?",
+        hi: "ब्लूम के संशोधित ज्ञानात्मक वर्गीकरण में, उच्चतम स्तर का चिंतन कौशल कौन सा है?",
+        opts: ["Evaluating (मूल्यांकन)", "Creating (सृजन करना)", "Analyzing (विश्लेषण)", "Applying (अनुप्रयोग)"],
+        ans: 1,
+        exp: "In Anderson & Krathwohl's revised taxonomy (2001), 'Creating' replaced 'Evaluation' at the apex."
+      },
+      {
+        id: 16,
+        en: "What is the mandatory percentage of seats reserved for disadvantaged groups and weaker sections under Section 12(1)(c) of RTE Act 2009 in entry-level classes?",
+        hi: "RTE अधिनियम 2009 की धारा 12(1)(c) के तहत प्रारंभिक कक्षाओं में वंचित एवं कमजोर वर्ग के बच्चों के लिए कितने प्रतिशत सीटें आरक्षित करना अनिवार्य है?",
+        opts: ["10%", "20%", "25%", "33%"],
+        ans: 2,
+        exp: "Section 12(1)(c) mandates at least 25% admission reservation in entry-level classes."
+      },
+      {
+        id: 17,
+        en: "Under CCS (CCA) Rules 1965, which of the following is NOT classified as a penalty?",
+        hi: "CCS (CCA) नियमावली 1965 के तहत निम्नलिखित में से किसे शास्ति (Penalty) के रूप में वर्गीकृत नहीं किया गया है?",
+        opts: ["Censure", "Withholding of increments", "Suspension (निलंबन)", "Reduction to lower grade"],
+        ans: 2,
+        exp: "Suspension is an administrative measure under Rule 10, not a statutory penalty listed under Rule 11."
+      },
+      {
+        id: 18,
+        en: "Under RTE Act 2009 Section 26, the vacancies of teachers in a school shall not exceed what percentage of total sanctioned strength?",
+        hi: "RTE अधिनियम 2009 की धारा 26 के अनुसार, किसी विद्यालय में शिक्षकों की रिक्तियां कुल स्वीकृत पद के कितने प्रतिशत से अधिक नहीं होनी चाहिए?",
+        opts: ["5%", "10%", "15%", "20%"],
+        ans: 1,
+        exp: "Section 26 stipulates teacher vacancies shall not exceed 10% of total sanctioned strength."
+      },
+      {
+        id: 19,
+        en: "Under GFR 2017, up to what monetary threshold is procurement through Limited Tender Enquiry (LTE) ordinarily permitted?",
+        hi: "GFR 2017 के तहत सीमित निविदा पूछताछ (LTE) के माध्यम से खरीद आमतौर पर कितनी वित्तीय सीमा तक अनुमन्य है?",
+        opts: ["₹5 Lakhs", "₹10 Lakhs", "₹25 Lakhs", "₹50 Lakhs"],
+        ans: 2,
+        exp: "Limited Tender Enquiry (LTE) is adopted for goods value up to ₹25 Lakhs under GFR Rule 162."
+      },
+      {
+        id: 20,
+        en: "What is the target age group covered under Early Childhood Care and Education (ECCE) in NEP 2020?",
+        hi: "NEP 2020 में प्रारंभिक बाल्यावस्था देखभाल और शिक्षा (ECCE) के अंतर्गत किस आयु वर्ग को शामिल किया गया है?",
+        opts: ["0-3 Years", "3-6 Years", "3-8 Years", "6-14 Years"],
+        ans: 1,
+        exp: "ECCE covers children aged 3 to 6 years in Anganwadis/Balvatikas before formal schooling."
       }
     ];
 
-    const TOTAL_QUESTIONS = 120;
-    const EXAM_QUESTIONS = [];
-    for (let i = 0; i < TOTAL_QUESTIONS; i++) {
-      const seed = QUESTION_BANK[i % QUESTION_BANK.length];
-      EXAM_QUESTIONS.push({
-        num: i + 1,
-        en: (i >= QUESTION_BANK.length ? `[Q${i + 1}] ` : '') + seed.en,
-        hi: (i >= QUESTION_BANK.length ? `[प्रश्न ${i + 1}] ` : '') + seed.hi,
-        opts: seed.opts,
-        ans: seed.ans,
-        exp: seed.exp
-      });
+    let ACTIVE_EXAM_QUESTIONS = [];
+    let currentIndex = 0;
+    let userAnswers = {};
+    let timerInterval = null;
+    let timeLeft = 120 * 60;
+
+    // Fisher-Yates Dynamic Shuffle Engine
+    function shuffleArray(arr) {
+      const copy = [...arr];
+      for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+      }
+      return copy;
     }
 
-    function navigate(viewName) {
-      currentView = viewName;
-      const views = ['HOME', 'NOTES', 'EXAM', 'RESULT'];
-      views.forEach(v => {
+    function navigate(view) {
+      ['HOME', 'EXAM', 'RESULT', 'NOTES'].forEach(v => {
         const el = document.getElementById(`view-${v}`);
         if (el) {
-          if (v === viewName) {
+          if (v === view) {
             el.classList.remove('hidden');
             if (v === 'EXAM') el.classList.add('flex');
           } else {
@@ -520,50 +541,43 @@
           }
         }
       });
-      window.scrollTo({ top: 0, behavior: 'instant' });
+      window.scrollTo(0, 0);
     }
 
-    function toggleLanguage() {
-      currentLanguage = (currentLanguage === 'HI') ? 'EN' : 'HI';
-      document.getElementById('langLabel').textContent = currentLanguage === 'HI' ? 'हिन्दी / EN' : 'EN / हिन्दी';
-      if (currentView === 'EXAM') renderCurrentQuestion();
-    }
-
-    function startExam(type) {
-      currentExamType = type;
+    function startExam() {
       currentIndex = 0;
       userAnswers = {};
-      reviewStatus = {};
       timeLeft = 120 * 60;
 
-      document.getElementById('examTitleBadge').textContent = type === 'UPSC' ? 'UPSC Principal CBT' : 'UP Aided Principal CBT';
+      // Always randomize the questions to ensure unique order every time
+      ACTIVE_EXAM_QUESTIONS = shuffleArray(MASTER_QUESTIONS);
 
+      document.getElementById('totalQNum').textContent = ACTIVE_EXAM_QUESTIONS.length;
       clearInterval(timerInterval);
-      updateTimerDisplay();
+      updateTimer();
       timerInterval = setInterval(() => {
         timeLeft--;
         if (timeLeft <= 0) {
           clearInterval(timerInterval);
           finishExam();
         } else {
-          updateTimerDisplay();
+          updateTimer();
         }
       }, 1000);
 
-      renderPaletteGrid();
-      renderCurrentQuestion();
+      renderPalette();
+      renderQuestion();
       navigate('EXAM');
     }
 
-    function updateTimerDisplay() {
-      const mins = Math.floor(timeLeft / 60);
-      const secs = timeLeft % 60;
-      document.getElementById('timerDisplay').textContent = 
-        `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    function updateTimer() {
+      const m = Math.floor(timeLeft / 60);
+      const s = timeLeft % 60;
+      document.getElementById('timerDisplay').textContent = `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
     }
 
-    function renderCurrentQuestion() {
-      const q = EXAM_QUESTIONS[currentIndex];
+    function renderQuestion() {
+      const q = ACTIVE_EXAM_QUESTIONS[currentIndex];
       document.getElementById('currentQNum').textContent = currentIndex + 1;
       document.getElementById('qTextEN').textContent = q.en;
       document.getElementById('qTextHI').textContent = q.hi;
@@ -572,143 +586,158 @@
       container.innerHTML = '';
 
       q.opts.forEach((optText, oIdx) => {
-        const isSelected = userAnswers[currentIndex] === oIdx;
+        const isSelected = (userAnswers[currentIndex] === oIdx);
         const btn = document.createElement('button');
         btn.type = 'button';
         btn.className = `w-full text-left p-3.5 rounded-xl border text-xs sm:text-sm font-medium transition flex items-center justify-between ${
           isSelected 
-            ? 'bg-blue-50 border-blue-600 text-blue-900 shadow-xs' 
-            : 'bg-white border-slate-200 text-slate-800 hover:bg-slate-50'
+            ? 'bg-blue-900/60 border-blue-500 text-white shadow-md shadow-blue-500/20' 
+            : 'bg-slate-900 border-slate-800 text-slate-200 hover:bg-slate-800'
         }`;
-        btn.onclick = () => selectOption(oIdx);
+        btn.onclick = () => {
+          userAnswers[currentIndex] = oIdx;
+          renderQuestion();
+        };
 
         btn.innerHTML = `
           <div class="flex items-center gap-3">
             <span class="w-6 h-6 rounded-lg flex items-center justify-center font-bold text-xs ${
-              isSelected ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700'
+              isSelected ? 'bg-blue-500 text-white' : 'bg-slate-800 text-slate-400'
             }">${String.fromCharCode(65 + oIdx)}</span>
             <span>${optText}</span>
           </div>
-          ${isSelected ? '<i class="fa-solid fa-circle-check text-blue-600 text-base"></i>' : ''}
+          ${isSelected ? '<i class="fa-solid fa-circle-check text-blue-400 text-base"></i>' : ''}
         `;
         container.appendChild(btn);
       });
 
       document.getElementById('prevBtn').disabled = (currentIndex === 0);
       document.getElementById('prevBtn').classList.toggle('opacity-50', currentIndex === 0);
-
-      updatePaletteItem(currentIndex);
-      updateAnsweredCount();
-    }
-
-    function selectOption(oIdx) {
-      userAnswers[currentIndex] = oIdx;
-      renderCurrentQuestion();
+      updatePaletteUI();
     }
 
     function clearCurrentSelection() {
       delete userAnswers[currentIndex];
-      renderCurrentQuestion();
-    }
-
-    function markForReview() {
-      reviewStatus[currentIndex] = !reviewStatus[currentIndex];
-      renderCurrentQuestion();
+      renderQuestion();
     }
 
     function nextQuestion() {
-      if (currentIndex < TOTAL_QUESTIONS - 1) {
+      if (currentIndex < ACTIVE_EXAM_QUESTIONS.length - 1) {
         currentIndex++;
-        renderCurrentQuestion();
+        renderQuestion();
       }
     }
 
     function prevQuestion() {
       if (currentIndex > 0) {
         currentIndex--;
-        renderCurrentQuestion();
+        renderQuestion();
       }
     }
 
-    function jumpToQuestion(idx) {
-      currentIndex = idx;
-      renderCurrentQuestion();
+    function renderPalette() {
+      const p = document.getElementById('paletteGrid');
+      p.innerHTML = '';
+      ACTIVE_EXAM_QUESTIONS.forEach((_, i) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.id = `pal-${i}`;
+        btn.className = 'h-8 text-xs font-bold rounded-lg border flex items-center justify-center transition bg-slate-800 border-slate-700 text-slate-400';
+        btn.textContent = i + 1;
+        btn.onclick = () => {
+          currentIndex = i;
+          renderQuestion();
+        };
+        p.appendChild(btn);
+      });
     }
 
-    function renderPaletteGrid() {
-      const grid = document.getElementById('paletteGrid');
-      grid.innerHTML = '';
-      for (let i = 0; i < TOTAL_QUESTIONS; i++) {
-        const b = document.createElement('button');
-        b.type = 'button';
-        b.id = `palette-btn-${i}`;
-        b.className = 'h-8 text-xs font-bold rounded-lg border flex items-center justify-center transition';
-        b.textContent = i + 1;
-        b.onclick = () => jumpToQuestion(i);
-        grid.appendChild(b);
-      }
-    }
+    function updatePaletteUI() {
+      let answered = 0;
+      ACTIVE_EXAM_QUESTIONS.forEach((_, i) => {
+        const btn = document.getElementById(`pal-${i}`);
+        if (!btn) return;
+        const hasAnswered = userAnswers.hasOwnProperty(i);
+        if (hasAnswered) answered++;
 
-    function updatePaletteItem(idx) {
-      for (let i = 0; i < TOTAL_QUESTIONS; i++) {
-        const btn = document.getElementById(`palette-btn-${i}`);
-        if (!btn) continue;
-
-        const isAnswered = userAnswers.hasOwnProperty(i);
-        const isMarked = reviewStatus[i];
-        const isCurrent = (i === currentIndex);
-
-        btn.className = 'h-8 text-xs font-bold rounded-lg border flex items-center justify-center transition ';
-
-        if (isCurrent) btn.className += 'ring-2 ring-blue-600 border-blue-600 ';
-
-        if (isMarked) {
-          btn.className += 'bg-amber-500 text-white border-amber-600';
-        } else if (isAnswered) {
-          btn.className += 'bg-emerald-600 text-white border-emerald-700';
+        if (i === currentIndex) {
+          btn.className = 'h-8 text-xs font-bold rounded-lg border flex items-center justify-center ring-2 ring-blue-500 bg-blue-900/60 text-blue-300 border-blue-500';
+        } else if (hasAnswered) {
+          btn.className = 'h-8 text-xs font-bold rounded-lg border flex items-center justify-center bg-emerald-600 text-white border-emerald-500';
         } else {
-          btn.className += 'bg-slate-100 text-slate-700 border-slate-200';
+          btn.className = 'h-8 text-xs font-bold rounded-lg border flex items-center justify-center bg-slate-800 text-slate-400 border-slate-700';
         }
-      }
-    }
-
-    function updateAnsweredCount() {
-      const count = Object.keys(userAnswers).length;
-      document.getElementById('answeredCount').textContent = count;
+      });
+      document.getElementById('answeredCount').textContent = answered;
     }
 
     function finishExam() {
       clearInterval(timerInterval);
-
       let correct = 0;
       let wrong = 0;
 
-      for (let i = 0; i < TOTAL_QUESTIONS; i++) {
-        if (userAnswers.hasOwnProperty(i)) {
-          if (userAnswers[i] === EXAM_QUESTIONS[i].ans) {
-            correct++;
-          } else {
-            wrong++;
-          }
-        }
-      }
+      const reviewContainer = document.getElementById('reviewContainer');
+      reviewContainer.innerHTML = '';
 
-      const rawScore = (correct * 2.5) - (wrong * 0.8333);
-      const finalScore = Math.max(0, rawScore).toFixed(2);
+      ACTIVE_EXAM_QUESTIONS.forEach((q, idx) => {
+        const userChoice = userAnswers[idx];
+        const isAttempted = userAnswers.hasOwnProperty(idx);
+        const isCorrect = (userChoice === q.ans);
+
+        if (isAttempted) {
+          if (isCorrect) correct++;
+          else wrong++;
+        }
+
+        const card = document.createElement('div');
+        card.className = `p-4 rounded-xl border text-xs sm:text-sm ${
+          isCorrect ? 'bg-emerald-950/30 border-emerald-800' : isAttempted ? 'bg-rose-950/30 border-rose-800' : 'bg-slate-900 border-slate-800'
+        }`;
+        card.innerHTML = `
+          <div class="font-bold text-white mb-1">Q${idx + 1}: ${q.hi}</div>
+          <div class="text-slate-400 text-xs mb-2">${q.en}</div>
+          <div class="space-y-1">
+            <div><strong>Aapka Vikalp:</strong> ${isAttempted ? q.opts[userChoice] : '<span class="text-slate-500">Not Attempted</span>'}</div>
+            <div class="text-emerald-400 font-bold"><strong>Statutory Answer Key:</strong> ${q.opts[q.ans]}</div>
+            <div class="text-slate-400 text-xs mt-1.5 bg-slate-950 p-2.5 rounded-lg border border-slate-800"><strong>Rule/Section Citation:</strong> ${q.exp}</div>
+          </div>
+        `;
+        reviewContainer.appendChild(card);
+      });
+
       const totalAttempted = correct + wrong;
-      const accuracy = totalAttempted > 0 ? Math.round((correct / totalAttempted) * 100) : 0;
+      const rawScore = (correct * 2.5) - (wrong * 0.833);
+      const finalScore = Math.max(0, rawScore).toFixed(2);
+      const acc = totalAttempted > 0 ? Math.round((correct / totalAttempted) * 100) : 0;
 
       document.getElementById('resScore').textContent = finalScore;
-      document.getElementById('resAccuracy').textContent = `${accuracy}%`;
+      document.getElementById('resAccuracy').textContent = `${acc}%`;
       document.getElementById('resCorrect').textContent = correct;
       document.getElementById('resWrong').textContent = wrong;
 
       navigate('RESULT');
     }
 
-    window.onload = function() {
-      navigate('HOME');
-    };
+    // Notes Filter
+    function filterNotes(cat) {
+      document.querySelectorAll('.note-filter-btn').forEach(b => {
+        if (b.getAttribute('data-filter') === cat) {
+          b.className = 'note-filter-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-blue-600 text-white';
+        } else {
+          b.className = 'note-filter-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 hover:bg-slate-700';
+        }
+      });
+
+      document.querySelectorAll('.note-card').forEach(card => {
+        if (cat === 'ALL' || card.getAttribute('data-cat') === cat) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    window.onload = () => navigate('HOME');
   </script>
 </body>
 </html>
