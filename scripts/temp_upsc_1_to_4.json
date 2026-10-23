@@ -1,0 +1,2061 @@
+[
+  {
+    "id": "upsc-crt-1",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "National & International Events",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "Which international forum hosted the 2023 G20 Leaders' Summit under India's presidency under the theme 'Vasudhaiva Kutumbakam'?",
+    "questionTextHi": "भारत की अध्यक्षता में 'वसुधैव कुटुंबकम' विषय के साथ 2023 के जी20 शिखर सम्मेलन की मेजबानी किस अंतरराष्ट्रीय स्थल पर की गई?",
+    "optionsEn": [
+      "Bharat Mandapam, New Delhi",
+      "Yashobhoomi, Dwarka",
+      "Vigyan Bhawan, New Delhi",
+      "Statue of Unity, Gujarat"
+    ],
+    "optionsHi": [
+      "भारत मंडपम, नई दिल्ली",
+      "यशोभूमि, द्वारका",
+      "विज्ञान भवन, नई दिल्ली",
+      "स्टैच्यू ऑफ यूनिटी, गुजरात"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "The 18th G20 Summit in September 2023 was held at Bharat Mandapam, Pragati Maidan, New Delhi.",
+    "explanationHi": "18वां जी20 शिखर सम्मेलन सितंबर 2023 में प्रगति मैदान, नई दिल्ली स्थित भारत मंडपम में आयोजित किया गया था।",
+    "difficulty": "Easy",
+    "tags": [
+      "G20",
+      "Current Affairs"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-2",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "Indian Constitution & Democratic Institutions",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "Under Article 21A of the Constitution of India, free and compulsory education is guaranteed as a Fundamental Right to children of which age group?",
+    "questionTextHi": "भारतीय संविधान के अनुच्छेद 21A के अंतर्गत किस आयु वर्ग के बच्चों के लिए निःशुल्क एवं अनिवार्य शिक्षा को मौलिक अधिकार घोषित किया गया है?",
+    "optionsEn": [
+      "3 to 6 years",
+      "6 to 14 years",
+      "6 to 18 years",
+      "5 to 15 years"
+    ],
+    "optionsHi": [
+      "3 से 6 वर्ष",
+      "6 से 14 वर्ष",
+      "6 से 18 वर्ष",
+      "5 से 15 वर्ष"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Article 21A, inserted by the 86th Constitutional Amendment Act 2002, mandates free and compulsory education for children aged 6 to 14.",
+    "explanationHi": "86वें संविधान संशोधन अधिनियम 2002 द्वारा जोड़े गए अनुच्छेद 21A के अनुसार 6 से 14 वर्ष के बच्चों के लिए निःशुल्क व अनिवार्य शिक्षा मौलिक अधिकार है।",
+    "difficulty": "Easy",
+    "tags": [
+      "Article 21A",
+      "Constitution"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-3",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "Socio-Economic Development & Census Data",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "According to the 2011 Census of India, which state recorded the highest female literacy rate in the country?",
+    "questionTextHi": "2011 की भारतीय जनगणना के अनुसार, देश में सर्वाधिक महिला साक्षरता दर किस राज्य में दर्ज की गई थी?",
+    "optionsEn": [
+      "Kerala (92.1%)",
+      "Mizoram (89.3%)",
+      "Goa (84.7%)",
+      "Tripura (82.7%)"
+    ],
+    "optionsHi": [
+      "केरल (92.1%)",
+      "मिजोरम (89.3%)",
+      "गोवा (84.7%)",
+      "त्रिपुरा (82.7%)"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "Kerala recorded the highest female literacy rate at 92.07% in Census 2011.",
+    "explanationHi": "2011 की जनगणना के अनुसार केरल में सर्वाधिक महिला साक्षरता (92.1%) दर्ज की गई थी।",
+    "difficulty": "Medium",
+    "tags": [
+      "Census 2011",
+      "Literacy"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-4",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "Sustainable Development Goals",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "Which United Nations Sustainable Development Goal (SDG) specifically targets 'Quality Education' for all?",
+    "questionTextHi": "संयुक्त राष्ट्र का कौन सा सतत विकास लक्ष्य (SDG) सभी के लिए 'गुणवत्तापूर्ण शिक्षा' (Quality Education) पर केंद्रित है?",
+    "optionsEn": [
+      "SDG 1",
+      "SDG 3",
+      "SDG 4",
+      "SDG 8"
+    ],
+    "optionsHi": [
+      "एसडीजी 1",
+      "एसडीजी 3",
+      "एसडीजी 4",
+      "एसडीजी 8"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "SDG 4 aims to ensure inclusive and equitable quality education and promote lifelong learning opportunities for all by 2030.",
+    "explanationHi": "एसडीजी 4 का उद्देश्य 2030 तक सभी के लिए समावेशी व गुणवत्तापूर्ण शिक्षा तथा आजीवन सीखने के अवसर सुनिश्चित करना है।",
+    "difficulty": "Easy",
+    "tags": [
+      "SDG 4",
+      "Quality Education"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-5",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "Indian Cultural Heritage & Science",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "Which lunar mission made India the first country to land a spacecraft near the Moon's South Pole in August 2023?",
+    "questionTextHi": "किस चंद्र मिशन ने अगस्त 2023 में चंद्रमा के दक्षिणी ध्रुव के निकट उतरने वाला पहला देश बनाकर भारत को ऐतिहासिक सफलता दिलाई?",
+    "optionsEn": [
+      "Chandrayaan-1",
+      "Chandrayaan-2",
+      "Chandrayaan-3",
+      "Aditya-L1"
+    ],
+    "optionsHi": [
+      "चंद्रयान-1",
+      "चंद्रयान-2",
+      "चंद्रयान-3",
+      "आदित्य-एल1"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "ISRO's Chandrayaan-3 successfully soft-landed its Vikram lander on 23 August 2023.",
+    "explanationHi": "इसरो के चंद्रयान-3 ने 23 अगस्त 2023 को चंद्रमा के दक्षिणी ध्रुव पर सफल लैंडिंग की।",
+    "difficulty": "Easy",
+    "tags": [
+      "Chandrayaan-3",
+      "Space"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-6",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "Contemporary Economic Issues",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "What is the statutory role of NITI Aayog, which replaced the Planning Commission of India in 2015?",
+    "questionTextHi": "2015 में योजना आयोग के स्थान पर गठित नीति आयोग (NITI Aayog) का मुख्य वैधानिक स्वरूप क्या है?",
+    "optionsEn": [
+      "Constitutional body with taxing power",
+      "Think tank providing strategic and technical policy advice to Central and State Governments",
+      "Commercial lending bank",
+      "Industrial licensing tribunal"
+    ],
+    "optionsHi": [
+      "कर लगाने की शक्ति वाला संवैधानिक निकाय",
+      "केंद्र और राज्य सरकारों को रणनीतिक व तकनीकी नीतिगत सलाह देने वाला थिंक टैंक",
+      "वाणिज्यिक ऋण बैंक",
+      "औद्योगिक लाइसेंसिंग अधिकरण"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "NITI Aayog acts as the apex policy think tank of the Government of India fostering cooperative federalism.",
+    "explanationHi": "नीति आयोग भारत सरकार का शीर्ष नीतिगत थिंक टैंक है जो सहकारी संघवाद को बढ़ावा देता है।",
+    "difficulty": "Medium",
+    "tags": [
+      "NITI Aayog",
+      "Economy"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-7",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "Indian Constitution & Governance",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "Who presides over the joint sitting of both Houses of Parliament in India under Article 108 of the Constitution?",
+    "questionTextHi": "भारतीय संविधान के अनुच्छेद 108 के तहत दोनों सदनों की संयुक्त बैठक की अध्यक्षता कौन करता है?",
+    "optionsEn": [
+      "The President of India",
+      "The Chairman of Rajya Sabha",
+      "The Speaker of Lok Sabha",
+      "The Prime Minister"
+    ],
+    "optionsHi": [
+      "भारत का राष्ट्रपति",
+      "राज्यसभा का सभापति",
+      "लोकसभा का अध्यक्ष (Speaker)",
+      "प्रधानमंत्री"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "Under Article 118(4), the joint sitting of both Houses of Parliament is presided over by the Speaker of the Lok Sabha.",
+    "explanationHi": "अनुच्छेद 118(4) के अनुसार संसद के दोनों सदनों की संयुक्त बैठक की अध्यक्षता लोकसभा अध्यक्ष करता है।",
+    "difficulty": "Medium",
+    "tags": [
+      "Constitution",
+      "Speaker",
+      "Parliament"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-8",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "Contemporary Social Issues & Protection",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "Under Section 19 of the Protection of Children from Sexual Offences (POCSO) Act 2012, what is the duty of any person who has apprehension or knowledge of an offence?",
+    "questionTextHi": "पॉक्सो (POCSO) अधिनियम 2012 की धारा 19 के अंतर्गत किसी भी व्यक्ति को अपराध की आशंका या जानकारी होने पर क्या विधिक दायित्व है?",
+    "optionsEn": [
+      "Conduct personal mediation",
+      "Mandatorily report to the Special Juvenile Police Unit (SJPU) or local police immediately",
+      "Seek School Management Committee permission",
+      "Wait for parents' written consent"
+    ],
+    "optionsHi": [
+      "व्यक्तिगत मध्यस्थता करना",
+      "विशेष किशोर पुलिस इकाई (SJPU) या स्थानीय पुलिस को तत्काल अनिवार्य सूचना देना",
+      "विद्यालय प्रबंधन समिति से अनुमति लेना",
+      "अभिभावकों की लिखित सहमति की प्रतीक्षा करना"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Section 19 mandates immediate reporting of offences to the Special Juvenile Police Unit or local police, with failure punishable under Section 21.",
+    "explanationHi": "धारा 19 के तहत बाल उत्पीड़न की सूचना पुलिस या विशेष किशोर पुलिस इकाई को तत्काल देना अनिवार्य है।",
+    "difficulty": "Medium",
+    "tags": [
+      "POCSO Act",
+      "Child Protection"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-9",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "Indian Polity & Panchayati Raj",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "Which Constitutional Amendment Act added the Eleventh Schedule containing 29 functional items for Panchayats?",
+    "questionTextHi": "किस संविधान संशोधन अधिनियम द्वारा पंचायतों के लिए 29 कार्यात्मक विषयों वाली 11वीं अनुसूची संविधान में जोड़ी गई?",
+    "optionsEn": [
+      "42nd Amendment Act",
+      "44th Amendment Act",
+      "73rd Amendment Act 1992",
+      "86th Amendment Act"
+    ],
+    "optionsHi": [
+      "42वां संशोधन अधिनियम",
+      "44वां संशोधन अधिनियम",
+      "73वां संशोधन अधिनियम 1992",
+      "86वां संशोधन अधिनियम"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "The 73rd Constitutional Amendment Act 1992 added the 11th Schedule providing 29 subjects under Article 243G.",
+    "explanationHi": "73वें संविधान संशोधन 1992 द्वारा 11वीं अनुसूची जोड़कर पंचायतों को 29 विषय सौंपे गए।",
+    "difficulty": "Easy",
+    "tags": [
+      "73rd Amendment",
+      "Panchayati Raj"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-10",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "Environmental Conservation",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "Which international environmental treaty adopted in 1987 is celebrated as World Ozone Day every year on September 16?",
+    "questionTextHi": "1987 में अपनाई गई कौन सी अंतरराष्ट्रीय पर्यावरण संधि ओजोन परत के संरक्षण हेतु समर्पित है और 16 सितंबर को विश्व ओजोन दिवस के रूप में मनाई जाती है?",
+    "optionsEn": [
+      "Kyoto Protocol",
+      "Montreal Protocol",
+      "Paris Agreement",
+      "Basel Convention"
+    ],
+    "optionsHi": [
+      "क्योटो प्रोटोकॉल",
+      "मॉन्ट्रियल प्रोटोकॉल",
+      "पेरिस समझौता",
+      "बेसल कन्वेंशन"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "The Montreal Protocol on Substances that Deplete the Ozone Layer was signed on 16 September 1987.",
+    "explanationHi": "मॉन्ट्रियल प्रोटोकॉल ओजोन क्षयकारी पदार्थों पर ऐतिहासिक अंतरराष्ट्रीय समझौता है जो 16 सितंबर 1987 को हस्ताक्षरित हुआ।",
+    "difficulty": "Easy",
+    "tags": [
+      "Montreal Protocol",
+      "Environment"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-11",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "Social Welfare Schemes",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "The 'PM POSHAN' scheme (formerly Mid-Day Meal) is implemented under which statutory enactment in India?",
+    "questionTextHi": "'पीएम पोषण' योजना (पूर्व में मध्याह्न भोजन योजना) भारत के किस वैधानिक अधिनियम के अंतर्गत संचालित की जाती है?",
+    "optionsEn": [
+      "National Food Security Act (NFSA) 2013",
+      "Essential Commodities Act",
+      "Consumer Protection Act",
+      "Factories Act"
+    ],
+    "optionsHi": [
+      "राष्ट्रीय खाद्य सुरक्षा अधिनियम (NFSA) 2013",
+      "आवश्यक वस्तु अधिनियम",
+      "उपभोक्ता संरक्षण अधिनियम",
+      "कारखाना अधिनियम"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "Section 5 of the National Food Security Act, 2013 provides the statutory basis for nutritional meals to school children under PM POSHAN.",
+    "explanationHi": "राष्ट्रीय खाद्य सुरक्षा अधिनियम 2013 की धारा 5 के अंतर्गत स्कूली बच्चों को पौष्टिक भोजन उपलब्ध कराने की वैधानिक गारंटी दी गई है।",
+    "difficulty": "Medium",
+    "tags": [
+      "PM POSHAN",
+      "NFSA 2013",
+      "Nutrition"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-12",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "Indian Heritage & Ancient Knowledge",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "Which ancient Indian university situated in modern Bihar was revived as an international university under an Act of Parliament in 2010?",
+    "questionTextHi": "प्राचीन भारत का कौन सा विश्वविद्यालय, जो आधुनिक बिहार में स्थित था, 2010 में संसद के अधिनियम द्वारा अंतरराष्ट्रीय विश्वविद्यालय के रूप में पुनर्जीवित किया गया?",
+    "optionsEn": [
+      "Takshashila",
+      "Nalanda University",
+      "Vikramashila",
+      "Vallabhi"
+    ],
+    "optionsHi": [
+      "तक्षशिला",
+      "नालंदा विश्वविद्यालय",
+      "विक्रमशिला",
+      "वल्लभी"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Nalanda University was established in Rajgir, Bihar, under the Nalanda University Act 2010, celebrating India's ancient seat of learning.",
+    "explanationHi": "प्राचीन नालंदा महाविहार की स्मृति में 2010 में राजगीर (बिहार) में नालंदा विश्वविद्यालय की पुनर्स्थापना की गई।",
+    "difficulty": "Easy",
+    "tags": [
+      "Nalanda",
+      "Heritage",
+      "Higher Education"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-13",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "Indian Economy & Taxation",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "The Goods and Services Tax (GST) in India was introduced through which Constitutional Amendment Act?",
+    "questionTextHi": "भारत में वस्तु एवं सेवा कर (GST) किस संविधान संशोधन अधिनियम के माध्यम से लागू किया गया था?",
+    "optionsEn": [
+      "99th Amendment Act",
+      "100th Amendment Act",
+      "101st Amendment Act 2016",
+      "103rd Amendment Act"
+    ],
+    "optionsHi": [
+      "99वां संशोधन अधिनियम",
+      "100वां संशोधन अधिनियम",
+      "101वां संशोधन अधिनियम 2016",
+      "103वां संशोधन अधिनियम"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "The 101st Constitutional Amendment Act 2016 introduced the nationwide unified Goods and Services Tax (GST) effective from 1 July 2017.",
+    "explanationHi": "101वें संविधान संशोधन 2016 के द्वारा 1 जुलाई 2017 से देश में एकीकृत वस्तु एवं सेवा कर (GST) व्यवस्था लागू की गई।",
+    "difficulty": "Medium",
+    "tags": [
+      "GST",
+      "101st Amendment",
+      "Economy"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-14",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "Fundamental Rights & Judicial Writs",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "Which prerogative writ literally means 'We Command' and is issued by the Supreme Court or High Courts to enforce a public legal duty upon an authority?",
+    "questionTextHi": "किस न्यायादेश (Writ) का शाब्दिक अर्थ 'हम आदेश देते हैं' होता है और यह किसी लोक प्राधिकारी को उसके विधिक कर्तव्य के पालन हेतु जारी किया जाता है?",
+    "optionsEn": [
+      "Habeas Corpus",
+      "Mandamus (परमादेश)",
+      "Quo-Warranto",
+      "Certiorari"
+    ],
+    "optionsHi": [
+      "बंदी प्रत्यक्षीकरण",
+      "परमादेश (Mandamus)",
+      "अधिकार पृच्छा",
+      "उत्प्रेषण"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Mandamus is a judicial writ issued as a command to an inferior court or public official to perform a specified public duty correctly.",
+    "explanationHi": "परमादेश (Mandamus) का शाब्दिक अर्थ 'हम आज्ञा देते हैं' है, जो किसी सार्वजनिक अधिकारी को उसके विधिक कर्तव्य पालन हेतु दिया जाता है।",
+    "difficulty": "Medium",
+    "tags": [
+      "Writs",
+      "Mandamus",
+      "Article 32"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-15",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-1",
+    "topic": "General Knowledge, including contemporary social, economic and cultural issues",
+    "topicHi": "सामान्य ज्ञान एवं समसामयिक सामाजिक, आर्थिक व सांस्कृतिक मुद्दे",
+    "subtopic": "National Literacy & Mission Goals",
+    "officialReference": "UPSC CRT Syllabus Area 1",
+    "questionTextEn": "The 'ULLAS' (Nav Bharat Saksharta Karyakram) initiative launched by the Ministry of Education covers non-literate citizens of which age group?",
+    "questionTextHi": "शिक्षा मंत्रालय द्वारा शुरू की गई 'उल्लास' (नव भारत साक्षरता कार्यक्रम) पहल किस आयु वर्ग के गैर-साक्षर नागरिकों के लिए संचालित है?",
+    "optionsEn": [
+      "Ages 15 years and above",
+      "Ages 6 to 14 years only",
+      "Ages 18 to 35 years exclusively",
+      "Senior citizens aged 60+ only"
+    ],
+    "optionsHi": [
+      "15 वर्ष और उससे अधिक आयु के नागरिक",
+      "केवल 6 से 14 वर्ष",
+      "विशेष रूप से 18 से 35 वर्ष",
+      "केवल 60 वर्ष से अधिक के वरिष्ठ नागरिक"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "ULLAS: New India Literacy Programme (NILP) targets non-literate persons aged 15 years and above to provide foundational literacy and life skills.",
+    "explanationHi": "उल्लास (ULLAS) योजना 15 वर्ष और उससे अधिक आयु के गैर-साक्षर व्यक्तियों को बुनियादी साक्षरता, संख्याज्ञान और जीवन कौशल सिखाने के लिए है।",
+    "difficulty": "Medium",
+    "tags": [
+      "ULLAS",
+      "Adult Education",
+      "Literacy"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-16",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "English Grammar & Prepositions",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "Choose the correct preposition to complete the official notice: 'The Principal congratulated the academic staff _____ securing first position in the state ranking.'",
+    "questionTextHi": "वाक्य को पूरा करने के लिए सही Preposition चुनें: 'The Principal congratulated the academic staff _____ securing first position in the state ranking.'",
+    "optionsEn": [
+      "for",
+      "on",
+      "with",
+      "at"
+    ],
+    "optionsHi": [
+      "for",
+      "on",
+      "with",
+      "at"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "The verb 'congratulate' takes the preposition 'on' followed by the achievement or occasion (e.g. congratulated on winning).",
+    "explanationHi": "अंग्रेजी व्याकरण के अनुसार 'congratulate' के बाद 'on' का प्रयोग किया जाता है।",
+    "difficulty": "Easy",
+    "tags": [
+      "English Grammar",
+      "Prepositions"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-17",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "English Vocabulary - One Word Substitution",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "What is the one-word substitution for: 'A leader or educator who inspires and directs educational innovation and reform'?",
+    "questionTextHi": "वाक्यांश के लिए एक शब्द चुनें: 'A leader or educator who inspires and directs educational innovation and reform'?",
+    "optionsEn": [
+      "Visionary",
+      "Pedagogue",
+      "Bureaucrat",
+      "Sycophant"
+    ],
+    "optionsHi": [
+      "Visionary (दूरदर्शी)",
+      "Pedagogue",
+      "Bureaucrat",
+      "Sycophant"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "A 'visionary' is a person who has clear and forward-looking ideas about how something should be planned and innovated.",
+    "explanationHi": "भविष्योन्मुखी विचारों से नवोन्मेष और सुधार का नेतृत्व करने वाले को 'Visionary' (दूरदर्शी) कहा जाता है।",
+    "difficulty": "Easy",
+    "tags": [
+      "One Word Substitution",
+      "Vocabulary"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-18",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "English Idioms & Phrases",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "In administrative communication, what does the idiom 'to leave no stone unturned' mean?",
+    "questionTextHi": "प्रशासनिक संदर्भ में मुहावरे 'to leave no stone unturned' का क्या अर्थ है?",
+    "optionsEn": [
+      "To avoid doing any physical work",
+      "To make every possible effort and explore every available means to accomplish a goal",
+      "To conceal government records",
+      "To demolish old school buildings"
+    ],
+    "optionsHi": [
+      "कोई काम न करना",
+      "लक्ष्य प्राप्ति हेतु हर संभव प्रयास करना और कोई कसर न छोड़ना",
+      "सरकारी अभिलेख छिपाना",
+      "पुराने भवन गिराना"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "'To leave no stone unturned' means to use every possible method or resource to achieve a desired outcome.",
+    "explanationHi": "इसका अर्थ है किसी कार्य को सिद्ध करने के लिए आकाश-पाताल एक कर देना या कोई कसर बाकी न रखना।",
+    "difficulty": "Easy",
+    "tags": [
+      "Idioms",
+      "English"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-19",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "English Syntax & Voice Transformation",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "Convert the following sentence into Passive Voice: 'The committee has evaluated all examination papers diligently.'",
+    "questionTextHi": "वाक्य को कर्मवाच्य (Passive Voice) में बदलें: 'The committee has evaluated all examination papers diligently.'",
+    "optionsEn": [
+      "All examination papers were evaluated diligently by the committee.",
+      "All examination papers have been evaluated diligently by the committee.",
+      "All examination papers had been evaluated by the committee.",
+      "All examination papers will be evaluated by the committee."
+    ],
+    "optionsHi": [
+      "All examination papers were evaluated diligently by the committee.",
+      "All examination papers have been evaluated diligently by the committee.",
+      "All examination papers had been evaluated by the committee.",
+      "All examination papers will be evaluated by the committee."
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Present Perfect Active ('has evaluated') changes to 'have been evaluated' in the passive voice with plural subject 'papers'.",
+    "explanationHi": "Present Perfect में passive voice की संरचना 'have/has + been + V3' होती है।",
+    "difficulty": "Medium",
+    "tags": [
+      "Active Passive Voice",
+      "Grammar"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-20",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "English Direct & Indirect Speech",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "Change into Indirect Speech: The Principal said, 'Teachers must submit the annual academic reports tomorrow.'",
+    "questionTextHi": "अप्रत्यक्ष कथन (Indirect Speech) में बदलें: The Principal said, 'Teachers must submit the annual academic reports tomorrow.'",
+    "optionsEn": [
+      "The Principal said that teachers must submit the annual academic reports tomorrow.",
+      "The Principal said that teachers had to submit the annual academic reports the following day.",
+      "The Principal says that teachers must submit reports tomorrow.",
+      "The Principal ordered teachers submitting reports tomorrow."
+    ],
+    "optionsHi": [
+      "The Principal said that teachers must submit the annual academic reports tomorrow.",
+      "The Principal said that teachers had to submit the annual academic reports the following day.",
+      "The Principal says that teachers must submit reports tomorrow.",
+      "The Principal ordered teachers submitting reports tomorrow."
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "In indirect speech, the reporting verb in past tense changes 'must' to 'had to' (for obligation) and 'tomorrow' to 'the following day' or 'the next day'.",
+    "explanationHi": "इनडायरेक्ट स्पीच में 'said' के साथ 'must' को 'had to' तथा 'tomorrow' को 'the following day' में बदला जाता है।",
+    "difficulty": "Medium",
+    "tags": [
+      "Direct Indirect Speech",
+      "Narration"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-21",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "English Error Detection",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "Identify the segment containing an error in the sentence: 'Neither the school supervisor (A) / nor the teachers (B) / was present in (C) / the morning staff meeting (D).'",
+    "questionTextHi": "वाक्य के किस भाग में व्याकरण संबंधी त्रुटि है: 'Neither the school supervisor (A) / nor the teachers (B) / was present in (C) / the morning staff meeting (D).'",
+    "optionsEn": [
+      "Neither the school supervisor (A)",
+      "nor the teachers (B)",
+      "was present in (C)",
+      "the morning staff meeting (D)"
+    ],
+    "optionsHi": [
+      "Neither the school supervisor (A)",
+      "nor the teachers (B)",
+      "was present in (C)",
+      "the morning staff meeting (D)"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "With correlative conjunction 'neither... nor', the verb agrees with the nearer subject. Since 'teachers' is plural, the verb must be 'were present', not 'was'.",
+    "explanationHi": "'Neither... nor' में क्रिया निकटतम कर्ता के अनुसार आती है। 'teachers' बहुवचन है अतः 'was' के स्थान पर 'were' होगा।",
+    "difficulty": "Medium",
+    "tags": [
+      "Subject-Verb Agreement",
+      "Error Detection"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-22",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "English Vocabulary - Antonyms",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "Select the word that is most nearly OPPOSITE in meaning to the word 'EQUIVOCAL' used in administrative directives:",
+    "questionTextHi": "प्रशासनिक संदर्भ में प्रयुक्त शब्द 'EQUIVOCAL' का सबसे उपयुक्त विलोम (Antonym) शब्द चुनें:",
+    "optionsEn": [
+      "Ambiguous",
+      "Unequivocal (स्पष्ट / असंदिग्ध)",
+      "Obscure",
+      "Evasive"
+    ],
+    "optionsHi": [
+      "Ambiguous (अस्पष्ट)",
+      "Unequivocal (स्पष्ट / असंदिग्ध)",
+      "Obscure (धुंधला)",
+      "Evasive (टालमटोल)"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "'Equivocal' means ambiguous or open to more than one interpretation. Its direct antonym is 'unequivocal' (clear, unambiguous).",
+    "explanationHi": "'Equivocal' का अर्थ संदिग्ध या अस्पष्ट होता है, जिसका विलोम 'unequivocal' (असंदिग्ध/स्पष्ट) है।",
+    "difficulty": "Easy",
+    "tags": [
+      "Antonyms",
+      "Vocabulary"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-23",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "English Punctuation & Spelling",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "Which of the following words is spelt correctly according to standard British/Indian English orthography?",
+    "questionTextHi": "मानक अंग्रेजी वर्तनी के अनुसार निम्नलिखित में से किस शब्द की वर्तनी (Spelling) शुद्ध है?",
+    "optionsEn": [
+      "Accomodation",
+      "Accommodation",
+      "Acommodation",
+      "Accomadation"
+    ],
+    "optionsHi": [
+      "Accomodation",
+      "Accommodation",
+      "Acommodation",
+      "Accomadation"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "'Accommodation' is spelt with double 'c' and double 'm'.",
+    "explanationHi": "'Accommodation' की सही स्पेलिंग में दोहरा 'c' और दोहरा 'm' आता है।",
+    "difficulty": "Easy",
+    "tags": [
+      "Spelling",
+      "English"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-24",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "सामान्य हिन्दी - संधि",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "'सूर्योदय' शब्द में कौन सी संधि है तथा इसका सही संधि-विच्छेद क्या है?",
+    "questionTextHi": "'सूर्योदय' शब्द में कौन सी संधि है तथा इसका सही संधि-विच्छेद क्या है?",
+    "optionsEn": [
+      "दीर्घ संधि: सूर्य + उदय",
+      "गुण संधि: सूर्य + उदय",
+      "वृद्धि संधि: सूर्या + उदय",
+      "यण संधि: सूरी + उदय"
+    ],
+    "optionsHi": [
+      "दीर्घ संधि: सूर्य + उदय",
+      "गुण संधि: सूर्य + उदय",
+      "वृद्धि संधि: सूर्या + उदय",
+      "यण संधि: सूरी + उदय"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "सूर्य + उदय = सूर्योदय। यहाँ 'अ' + 'उ' मिलकर 'ओ' बन जाता है, जो गुण स्वर संधि का उदाहरण है।",
+    "explanationHi": "अ/आ के बाद उ/ऊ आने पर दोनों मिलकर 'ओ' बनते हैं, जो गुण संधि है।",
+    "difficulty": "Easy",
+    "tags": [
+      "संधि",
+      "गुण संधि",
+      "हिन्दी व्याकरण"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-25",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "सामान्य हिन्दी - समास",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "'यथाशक्ति' शब्द में कौन सा समास प्रयुक्त हुआ है?",
+    "questionTextHi": "'यथाशक्ति' शब्द में कौन सा समास प्रयुक्त हुआ है?",
+    "optionsEn": [
+      "तत्पुरुष समास",
+      "द्विगु समास",
+      "अव्ययीभाव समास",
+      "कर्मधारय समास"
+    ],
+    "optionsHi": [
+      "तत्पुरुष समास",
+      "द्विगु समास",
+      "अव्ययीभाव समास",
+      "कर्मधारय समास"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "'यथाशक्ति' का विग्रह 'शक्ति के अनुसार' होता है। इसमें प्रथम पद 'यथा' अव्यय है, अतः यह अव्ययीभाव समास है।",
+    "explanationHi": "जिस समास में पूर्व पद प्रधान और अव्यय हो, उसे अव्ययीभाव समास कहते हैं।",
+    "difficulty": "Easy",
+    "tags": [
+      "समास",
+      "अव्ययीभाव",
+      "हिन्दी व्याकरण"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-26",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "सामान्य हिन्दी - उपसर्ग एवं प्रत्यय",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "'प्राचार्य' शब्द में किस उपसर्ग का प्रयोग हुआ है?",
+    "questionTextHi": "'प्राचार्य' शब्द में किस उपसर्ग का प्रयोग हुआ है?",
+    "optionsEn": [
+      "प्रा",
+      "प्र",
+      "पर",
+      "प्राच"
+    ],
+    "optionsHi": [
+      "प्रा",
+      "प्र",
+      "पर",
+      "प्राच"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "प्र + आचार्य = प्राचार्य। यहाँ 'प्र' संस्कृत का उपसर्ग है तथा दीर्घ संधि होकर 'प्राचार्य' बनता है।",
+    "explanationHi": "'प्र' उपसर्ग का अर्थ प्रकृष्ट या श्रेष्ठ होता है, प्र + आचार्य = प्राचार्य।",
+    "difficulty": "Easy",
+    "tags": [
+      "उपसर्ग",
+      "हिन्दी व्याकरण"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-27",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "सामान्य हिन्दी - विलोम शब्द",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "'स्थावर' शब्द का सही विलोम शब्द निम्नलिखित में से कौन सा है?",
+    "questionTextHi": "'स्थावर' शब्द का सही विलोम शब्द निम्नलिखित में से कौन सा है?",
+    "optionsEn": [
+      "सचल",
+      "जंगम",
+      "चंचल",
+      "चेतन"
+    ],
+    "optionsHi": [
+      "सचल",
+      "जंगम",
+      "चंचल",
+      "चेतन"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "'स्थावर' (स्थिर रहने वाला) का मानक विलोम 'जंगम' (जो चल सके) होता है।",
+    "explanationHi": "स्थावर का अर्थ अचल है और इसका सही विपरीतार्थक शब्द 'जंगम' है।",
+    "difficulty": "Medium",
+    "tags": [
+      "विलोम शब्द",
+      "हिन्दी"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-28",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "सामान्य हिन्दी - मुहावरे व लोकोक्तियाँ",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "मुहावरे 'आस्तीन का सांप' का सटीक प्रशासनिक व व्यवहारिक अर्थ क्या है?",
+    "questionTextHi": "मुहावरे 'आस्तीन का सांप' का सटीक प्रशासनिक व व्यवहारिक अर्थ क्या है?",
+    "optionsEn": [
+      "विषैला जीव पालना",
+      "कपटी अथवा विश्वासघाती मित्र/सहयोगी",
+      "अत्यंत परिश्रमी व्यक्ति",
+      "साहसी कर्मचारी"
+    ],
+    "optionsHi": [
+      "विषैला जीव पालना",
+      "कपटी अथवा विश्वासघाती मित्र/सहयोगी",
+      "अत्यंत परिश्रमी व्यक्ति",
+      "साहसी कर्मचारी"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "'आस्तीन का सांप' का अर्थ निकट रहकर छल या विश्वासघात करने वाला व्यक्ति होता है।",
+    "explanationHi": "साथ रहकर विश्वासघात करने वाले कपटी मित्र को 'आस्तीन का सांप' कहा जाता है।",
+    "difficulty": "Easy",
+    "tags": [
+      "मुहावरे",
+      "हिन्दी"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-29",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "सामान्य हिन्दी - वर्तनी शुद्धि",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "निम्नलिखित में से किस शब्द की वर्तनी पूर्णतः शुद्ध है?",
+    "questionTextHi": "निम्नलिखित में से किस शब्द की वर्तनी पूर्णतः शुद्ध है?",
+    "optionsEn": [
+      "कवयित्री",
+      "कविइत्री",
+      "कवयत्री",
+      "कविअयित्री"
+    ],
+    "optionsHi": [
+      "कवयित्री",
+      "कविइत्री",
+      "कवयत्री",
+      "कविअयित्री"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "'कवि' का स्त्रीलिंग रूप 'कवयित्री' शुद्ध वर्तनी है।",
+    "explanationHi": "हिन्दी वर्तनी के नियमों के अनुसार 'कवयित्री' शुद्ध रूप है।",
+    "difficulty": "Easy",
+    "tags": [
+      "वर्तनी शुद्धि",
+      "हिन्दी"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-30",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-2",
+    "topic": "Hindi and English Language Skills",
+    "topicHi": "हिन्दी एवं अंग्रेजी भाषा दक्षता",
+    "subtopic": "सामान्य हिन्दी - प्रशासनिक शब्दावली",
+    "officialReference": "UPSC CRT Syllabus Area 2",
+    "questionTextEn": "सरकारी कार्यालयों में प्रयुक्त होने वाले अंग्रेजी शब्द 'SANCTION' का मानक हिन्दी पारिभाषिक शब्द क्या है?",
+    "questionTextHi": "सरकारी कार्यालयों में प्रयुक्त होने वाले अंग्रेजी शब्द 'SANCTION' का मानक हिन्दी पारिभाषिक शब्द क्या है?",
+    "optionsEn": [
+      "स्वीकृति / संस्वीकृति",
+      "निलंबन",
+      "अधिग्रहण",
+      "आदेशिका"
+    ],
+    "optionsHi": [
+      "स्वीकृति / संस्वीकृति",
+      "निलंबन",
+      "अधिग्रहण",
+      "आदेशिका"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "प्रशासनिक शब्दावली आयोग के अनुसार 'Sanction' का मानक अर्थ 'स्वीकृति' या 'संस्वीकृति' होता है।",
+    "explanationHi": "कार्यालयी शब्दावली में 'Sanction' का अर्थ आधिकारिक संस्वीकृति (अनुमोदन) है।",
+    "difficulty": "Easy",
+    "tags": [
+      "प्रशासनिक शब्दावली",
+      "कार्यालयी हिन्दी"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-31",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Logical Deduction & Syllogism",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "Statements: All teachers are scholars. Some scholars are authors. Conclusions: I. Some authors are teachers. II. Some scholars are teachers. Which conclusion logically follows?",
+    "questionTextHi": "कथन: सभी शिक्षक विद्वान हैं। कुछ विद्वान लेखक हैं। निष्कर्ष: I. कुछ लेखक शिक्षक हैं। II. कुछ विद्वान शिक्षक हैं। कौन सा निष्कर्ष तार्किक रूप से निकलता है?",
+    "optionsEn": [
+      "Only Conclusion I follows",
+      "Only Conclusion II follows",
+      "Both Conclusions I and II follow",
+      "Neither Conclusion follows"
+    ],
+    "optionsHi": [
+      "केवल निष्कर्ष I निकलता है",
+      "केवल निष्कर्ष II निकलता है",
+      "दोनों निष्कर्ष I और II निकलते हैं",
+      "कोई भी निष्कर्ष नहीं निकलता"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Since 'All teachers are scholars' (A-type), its converse 'Some scholars are teachers' is definitely true. But no valid link connects teachers and authors.",
+    "explanationHi": "'सभी शिक्षक विद्वान हैं' का परिवर्तन 'कुछ विद्वान शिक्षक हैं' वैध है। अतः केवल निष्कर्ष II सही है।",
+    "difficulty": "Easy",
+    "tags": [
+      "Syllogism",
+      "Reasoning"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-32",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Number Series & Pattern Recognition",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "Find the next term in the logical number series: 7, 14, 28, 56, 112, ?",
+    "questionTextHi": "दी गई संख्या श्रृंखला में अगला पद ज्ञात कीजिए: 7, 14, 28, 56, 112, ?",
+    "optionsEn": [
+      "168",
+      "214",
+      "224",
+      "248"
+    ],
+    "optionsHi": [
+      "168",
+      "214",
+      "224",
+      "248"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "Each successive term is obtained by multiplying the previous term by 2: 112 * 2 = 224.",
+    "explanationHi": "प्रत्येक पद पिछले पद को 2 से गुणा करने पर प्राप्त होता है: 112 × 2 = 224।",
+    "difficulty": "Easy",
+    "tags": [
+      "Number Series",
+      "Reasoning"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-33",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Coding-Decoding",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "In a certain code language, if 'LEAD' is coded as '20-13-9-12' and 'TEAM' is coded as '28-13-9-21', what will be the code for 'CARE'?",
+    "questionTextHi": "यदि किसी सांकेतिक भाषा में 'LEAD' को '20-13-9-12' तथा 'TEAM' को '28-13-9-21' लिखा जाता है, तो 'CARE' का कूट क्या होगा?",
+    "optionsEn": [
+      "11-9-26-13",
+      "11-9-26-14",
+      "12-10-27-14",
+      "10-8-25-12"
+    ],
+    "optionsHi": [
+      "11-9-26-13",
+      "11-9-26-14",
+      "12-10-27-14",
+      "10-8-25-12"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "Alphabet positions: C=3, A=1, R=18, E=5. Adding 8 to each position: 3+8=11, 1+8=9, 18+8=26, 5+8=13. Result: 11-9-26-13.",
+    "explanationHi": "प्रत्येक वर्णमाला क्रमांक में 8 जोड़ने का नियम लागू है: C(3+8=11), A(1+8=9), R(18+8=26), E(5+8=13)।",
+    "difficulty": "Medium",
+    "tags": [
+      "Coding-Decoding",
+      "Reasoning"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-34",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Direction Sense Test",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "A school principal walks 40 metres North from the administration block, turns right and walks 30 metres, then turns right again and walks 40 metres. How far and in which direction is the principal from the starting point?",
+    "questionTextHi": "एक प्रधानाचार्य प्रशासनिक भवन से 40 मीटर उत्तर की ओर चलते हैं, फिर दाएं मुड़कर 30 मीटर चलते हैं, फिर दाएं मुड़कर 40 मीटर चलते हैं। वह प्रारंभिक बिंदु से कितनी दूरी पर और किस दिशा में हैं?",
+    "optionsEn": [
+      "30 metres East",
+      "30 metres West",
+      "40 metres North",
+      "70 metres South"
+    ],
+    "optionsHi": [
+      "30 मीटर पूर्व",
+      "30 मीटर पश्चिम",
+      "40 मीटर उत्तर",
+      "70 मीटर दक्षिण"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "North 40m, East 30m, South 40m brings the principal exactly 30 metres due East of the starting point.",
+    "explanationHi": "उत्तर में 40 मीटर जाकर पुनः दक्षिण में 40 मीटर लौटने पर वह प्रारंभिक स्थान से 30 मीटर पूर्व दिशा में हैं।",
+    "difficulty": "Easy",
+    "tags": [
+      "Direction Sense",
+      "Reasoning"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-35",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Blood Relations",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "Pointing to a photograph of a teacher, Anita said, 'Her mother's only son is my brother.' How is Anita related to the teacher in the photograph?",
+    "questionTextHi": "एक शिक्षक की तस्वीर की ओर इशारा करते हुए अनिता ने कहा, 'इनकी माता का इकलौता पुत्र मेरा भाई है।' अनिता का तस्वीर वाले शिक्षक से क्या संबंध है?",
+    "optionsEn": [
+      "Sister (or Herself)",
+      "Mother",
+      "Niece",
+      "Aunt"
+    ],
+    "optionsHi": [
+      "बहन (या स्वयं)",
+      "माता",
+      "भतीजी",
+      "मौसी"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "The teacher's mother's only son is the teacher's brother. Since he is Anita's brother, Anita and the teacher are sisters (or Anita is the teacher). Thus, relationship is Sister.",
+    "explanationHi": "तस्वीर की माता का इकलौता पुत्र उसका भाई है, जो अनिता का भी भाई है। अतः अनिता उसकी बहन है।",
+    "difficulty": "Medium",
+    "tags": [
+      "Blood Relations",
+      "Reasoning"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-36",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Seating Arrangement",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "Five teachers A, B, C, D, and E are sitting in a row facing North. C is sitting in the middle. A is to the immediate left of B, and D is to the immediate right of C. Who is sitting at the extreme right end if E is sitting to the right of D?",
+    "questionTextHi": "पांच शिक्षक A, B, C, D और E उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। C ठीक मध्य में बैठा है। A, B के ठीक बाएं है और D, C के ठीक दाएं है। यदि E, D के दाएं है, तो सबसे दाएं छोर पर कौन बैठा है?",
+    "optionsEn": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "optionsHi": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correctOptionIndex": 3,
+    "explanationEn": "Row arrangement with 5 seats: 1, 2, 3, 4, 5. C is at position 3. D is at 4 (right of C). E is to the right of D, so E is at position 5 (extreme right). A and B are at 1 and 2.",
+    "explanationHi": "C मध्य में (तीसरे स्थान पर) है। D चौथे पर और E पांचवें (सबसे दाएं) छोर पर बैठा है।",
+    "difficulty": "Easy",
+    "tags": [
+      "Seating Arrangement",
+      "Reasoning"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-37",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Analytical Reasoning & Venn Diagrams",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "In a school staff of 60 teachers, 35 teach Humanities, 25 teach Sciences, and 10 teach both Humanities and Sciences. How many teachers teach NEITHER Humanities nor Sciences?",
+    "questionTextHi": "60 शिक्षकों वाले एक विद्यालय में 35 मानविकी पढ़ाते हैं, 25 विज्ञान पढ़ाते हैं तथा 10 दोनों पढ़ाते हैं। कितने शिक्षक न तो मानविकी पढ़ाते हैं और न ही विज्ञान?",
+    "optionsEn": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "optionsHi": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Total teaching at least one = n(H) + n(S) - n(H ∩ S) = 35 + 25 - 10 = 50. Total neither = 60 - 50 = 10.",
+    "explanationHi": "कम से कम एक विषय पढ़ाने वाले = 35 + 25 - 10 = 50। कोई भी विषय न पढ़ाने वाले = 60 - 50 = 10।",
+    "difficulty": "Easy",
+    "tags": [
+      "Venn Diagrams",
+      "Set Theory"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-38",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Statement and Assumption",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "Statement: 'To improve school discipline, daily morning assembly attendance must be made strictly biometric.' Assumptions: I. Biometric tracking can monitor real-time punctuality of students and staff. II. Assembly builds collective institutional culture. Which assumption is implicit?",
+    "questionTextHi": "कथन: 'विद्यालय में अनुशासन सुधारने हेतु प्रातःकालीन प्रार्थना सभा में बायोमेट्रिक उपस्थिति अनिवार्य की जानी चाहिए।' धारणाएं: I. बायोमेट्रिक ट्रैकिंग समयबद्धता की सटीक निगरानी कर सकती है। II. प्रार्थना सभा संस्थागत संस्कृति का निर्माण करती है। कौन सी धारणा अंतर्निहित है?",
+    "optionsEn": [
+      "Only Assumption I is implicit",
+      "Only Assumption II is implicit",
+      "Both I and II are implicit",
+      "Neither is implicit"
+    ],
+    "optionsHi": [
+      "केवल धारणा I अंतर्निहित है",
+      "केवल धारणा II अंतर्निहित है",
+      "दोनों धारणाएं I और II अंतर्निहित हैं",
+      "कोई भी अंतर्निहित नहीं है"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "Assumption I is directly linked to the efficacy of the biometric solution proposed in the statement. Assumption II, while generally true, is not the assumption underlying the biometric rule.",
+    "explanationHi": "बायोमेट्रिक नियम लागू करने का सीधा आधार यह धारणा है कि इससे समयबद्धता की निगरानी होगी। अतः केवल धारणा I अंतर्निहित है।",
+    "difficulty": "Medium",
+    "tags": [
+      "Critical Reasoning",
+      "Assumptions"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-39",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Quantitative Aptitude - Percentages",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "In an examination of 400 total marks, a student scores 260 marks. What percentage of marks did the student obtain?",
+    "questionTextHi": "400 कुल अंकों की एक परीक्षा में एक छात्र ने 260 अंक प्राप्त किए। छात्र ने कितने प्रतिशत अंक प्राप्त किए?",
+    "optionsEn": [
+      "60%",
+      "62.5%",
+      "65%",
+      "67.5%"
+    ],
+    "optionsHi": [
+      "60%",
+      "62.5%",
+      "65%",
+      "67.5%"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "Percentage = (260 / 400) * 100 = 260 / 4 = 65%.",
+    "explanationHi": "प्रतिशत = (260 / 400) × 100 = 65%।",
+    "difficulty": "Easy",
+    "tags": [
+      "Percentages",
+      "Quantitative"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-40",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Quantitative Aptitude - Ratios & Proportions",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "The ratio of boys to girls in a senior secondary school is 5 : 4. If there are 720 students in the school, how many girls are enrolled?",
+    "questionTextHi": "एक वरिष्ठ माध्यमिक विद्यालय में बालकों और बालिकाओं का अनुपात 5 : 4 है। यदि कुल छात्र संख्या 720 है, तो विद्यालय में कितनी बालिकाएं नामांकित हैं?",
+    "optionsEn": [
+      "320",
+      "360",
+      "400",
+      "420"
+    ],
+    "optionsHi": [
+      "320",
+      "360",
+      "400",
+      "420"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "Total parts = 5 + 4 = 9. Girls = (4 / 9) * 720 = 4 * 80 = 320.",
+    "explanationHi": "अनुपातिक योग = 5 + 4 = 9। बालिकाओं की संख्या = (4/9) × 720 = 320।",
+    "difficulty": "Easy",
+    "tags": [
+      "Ratios",
+      "Quantitative"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-41",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Quantitative Aptitude - Averages",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "The average marks obtained by 50 students in a mathematics unit test was 68. If the scores of the two highest scorers (98 and 92) are excluded, what is the new average of the remaining 48 students?",
+    "questionTextHi": "गणित के इकाई परीक्षण में 50 विद्यार्थियों का औसत प्राप्तांक 68 था। यदि शीर्ष दो विद्यार्थियों (98 और 92) के अंक हटा दिए जाएं, तो शेष 48 विद्यार्थियों का नया औसत क्या होगा?",
+    "optionsEn": [
+      "66.5",
+      "66.875",
+      "67.0",
+      "67.25"
+    ],
+    "optionsHi": [
+      "66.5",
+      "66.875",
+      "67.0",
+      "67.25"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Total sum = 50 * 68 = 3400. Sum of excluded = 98 + 92 = 190. Remaining sum = 3400 - 190 = 3210. New average = 3210 / 48 = 66.875.",
+    "explanationHi": "कुल योग = 50 × 68 = 3400। शीर्ष दो अंकों का योग = 190। शेष योग = 3210। नया औसत = 3210 / 48 = 66.875।",
+    "difficulty": "Medium",
+    "tags": [
+      "Averages",
+      "Quantitative"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-42",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Quantitative Aptitude - Profit and Loss",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "A school library purchased books at a discount of 20% on the printed catalogue price of ₹50,000. What is the net amount paid by the school?",
+    "questionTextHi": "एक विद्यालय पुस्तकालय ने ₹50,000 के अंकित मूल्य वाली पुस्तकों पर 20% की छूट प्राप्त की। विद्यालय द्वारा भुगतान की गई शुद्ध राशि कितनी है?",
+    "optionsEn": [
+      "₹35,000",
+      "₹40,000",
+      "₹42,500",
+      "₹45,000"
+    ],
+    "optionsHi": [
+      "₹35,000",
+      "₹40,000",
+      "₹42,500",
+      "₹45,000"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Discount = 20% of 50,000 = ₹10,000. Net amount = 50,000 - 10,000 = ₹40,000.",
+    "explanationHi": "छूट = ₹50,000 का 20% = ₹10,000। शुद्ध भुगतान = ₹40,000।",
+    "difficulty": "Easy",
+    "tags": [
+      "Profit and Loss",
+      "Commercial Math"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-43",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Quantitative Aptitude - Work and Time",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "If 12 workers can paint a school building in 15 days working 8 hours a day, in how many days can 18 workers complete the same work working 10 hours a day?",
+    "questionTextHi": "यदि 12 मजदूर प्रतिदिन 8 घंटे कार्य करके 15 दिन में विद्यालय भवन की पुताई कर सकते हैं, तो 18 मजदूर प्रतिदिन 10 घंटे कार्य करके वही कार्य कितने दिन में पूरा करेंगे?",
+    "optionsEn": [
+      "6 days",
+      "8 days",
+      "10 days",
+      "12 days"
+    ],
+    "optionsHi": [
+      "6 दिन",
+      "8 दिन",
+      "10 दिन",
+      "12 दिन"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Work formula: M1 * D1 * H1 = M2 * D2 * H2. 12 * 15 * 8 = 18 * D2 * 10 => 1440 = 180 * D2 => D2 = 1440 / 180 = 8 days.",
+    "explanationHi": "M1×D1×H1 = M2×D2×H2 => 12×15×8 = 18×D2×10 => 1440 = 180×D2 => D2 = 8 दिन।",
+    "difficulty": "Medium",
+    "tags": [
+      "Work and Time",
+      "Quantitative"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-44",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Quantitative Aptitude - Simple Interest",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "A school welfare committee deposited ₹2,00,000 in a fixed deposit scheme offering 7.5% per annum simple interest. What will be the interest earned after 3 years?",
+    "questionTextHi": "विद्यालय कल्याण समिति ने 7.5% वार्षिक साधारण ब्याज की दर पर ₹2,00,000 की राशि 3 वर्ष के लिए सावधि जमा की। 3 वर्ष पश्चात अर्जित ब्याज कितना होगा?",
+    "optionsEn": [
+      "₹35,000",
+      "₹45,000",
+      "₹50,000",
+      "₹55,000"
+    ],
+    "optionsHi": [
+      "₹35,000",
+      "₹45,000",
+      "₹50,000",
+      "₹55,000"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "SI = (P * R * T) / 100 = (2,00,000 * 7.5 * 3) / 100 = 2000 * 22.5 = ₹45,000.",
+    "explanationHi": "साधारण ब्याज = (मूलधन × दर × समय) / 100 = (200000 × 7.5 × 3) / 100 = ₹45,000।",
+    "difficulty": "Easy",
+    "tags": [
+      "Simple Interest",
+      "Quantitative"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-45",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-3",
+    "topic": "Reasoning Ability and Quantitative Aptitude",
+    "topicHi": "तार्किक योग्यता एवं संख्यात्मक अभिरुचि",
+    "subtopic": "Data Interpretation - Tables & Charts",
+    "officialReference": "UPSC CRT Syllabus Area 3",
+    "questionTextEn": "In a bar chart representing annual student enrolment: 2021 = 800, 2022 = 900, 2023 = 1080. What is the percentage increase in student enrolment from 2021 to 2023?",
+    "questionTextHi": "वार्षिक छात्र नामांकन दर्शाने वाले दंड आरेख में: 2021 = 800, 2022 = 900, 2023 = 1080। 2021 से 2023 तक छात्र नामांकन में कुल कितने प्रतिशत की वृद्धि हुई?",
+    "optionsEn": [
+      "25%",
+      "30%",
+      "35%",
+      "40%"
+    ],
+    "optionsHi": [
+      "25%",
+      "30%",
+      "35%",
+      "40%"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "Increase = 1080 - 800 = 280. Percentage increase = (280 / 800) * 100 = 35%.",
+    "explanationHi": "वृद्धि = 1080 - 800 = 280। प्रतिशत वृद्धि = (280 / 800) × 100 = 35%।",
+    "difficulty": "Easy",
+    "tags": [
+      "Data Interpretation",
+      "Percentages"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-46",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "NEP 2020 Curricular Structure",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "Under National Education Policy (NEP 2020), which age group corresponds to the 'Preparatory Stage' (Classes 3 to 5)?",
+    "questionTextHi": "राष्ट्रीय शिक्षा नीति (NEP 2020) के अंतर्गत कौन सा आयु वर्ग 'प्रारंभिक चरण' (Preparatory Stage - कक्षा 3 से 5) से संबंधित है?",
+    "optionsEn": [
+      "Ages 3 to 6",
+      "Ages 6 to 8",
+      "Ages 8 to 11",
+      "Ages 11 to 14"
+    ],
+    "optionsHi": [
+      "आयु 3 से 6 वर्ष",
+      "आयु 6 से 8 वर्ष",
+      "आयु 8 to 11 वर्ष",
+      "आयु 11 से 14 वर्ष"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "NEP 2020's 5+3+3+4 design: Foundational (ages 3-8), Preparatory (ages 8-11, Classes 3-5), Middle (ages 11-14), Secondary (ages 14-18).",
+    "explanationHi": "एनईपी 2020 में प्रिपरेटरी स्टेज 8 से 11 वर्ष (कक्षा 3 से 5) के बच्चों के लिए निर्धारित है।",
+    "difficulty": "Easy",
+    "tags": [
+      "NEP 2020",
+      "Curricular Structure"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-47",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "Continuous and Comprehensive Evaluation (CCE)",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "What is the core pedagogical objective of 'Formative Assessment' in the Continuous and Comprehensive Evaluation framework?",
+    "questionTextHi": "सतत और व्यापक मूल्यांकन (CCE) रूपरेखा में 'रचनात्मक / निर्माणात्मक मूल्यांकन' (Formative Assessment) का मुख्य उद्देश्य क्या है?",
+    "optionsEn": [
+      "Grading students for final board certification",
+      "Providing continuous feedback during the learning process to diagnose gaps and improve teaching-learning",
+      "Ranking schools in district league tables",
+      "Deciding teacher salary increments"
+    ],
+    "optionsHi": [
+      "अंतिम बोर्ड प्रमाणन हेतु छात्रों को ग्रेड देना",
+      "अधिगम प्रक्रिया के दौरान निरंतर प्रतिपुष्टि प्रदान कर कमियों को पहचानना और शिक्षण-अधिगम में सुधार करना",
+      "जिले में स्कूलों की रैंकिंग बनाना",
+      "शिक्षकों के वेतन वृद्धि का निर्णय करना"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Formative assessment is assessment FOR learning, designed to monitor learner progress and provide ongoing feedback for pedagogical improvement.",
+    "explanationHi": "निर्माणात्मक मूल्यांकन सीखने के लिए मूल्यांकन (Assessment for Learning) है जो अधिगम प्रक्रिया में निरंतर सुधार हेतु किया जाता है।",
+    "difficulty": "Easy",
+    "tags": [
+      "CCE",
+      "Formative Assessment",
+      "Evaluation"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-48",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "Holistic Progress Card (HPC)",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "According to NEP 2020, what is the unique feature of the 360-degree Holistic Progress Card (HPC)?",
+    "questionTextHi": "एनईपी 2020 के अनुसार 360-डिग्री समग्र प्रगति कार्ड (HPC) की प्रमुख विशेषता क्या है?",
+    "optionsEn": [
+      "It records only final examination numerical scores",
+      "It is a multidimensional report capturing cognitive, affective, and psychomotor domains with self, peer, and teacher assessment",
+      "It assesses only sports achievements",
+      "It replaces all textbooks with external tests"
+    ],
+    "optionsHi": [
+      "यह केवल अंतिम परीक्षा के अंकों को दर्ज करता है",
+      "यह ज्ञानात्मक, भावात्मक और मनोगत्यात्मक क्षेत्रों का बहुआयामी मूल्यांकन है जिसमें स्व, सहपाठी व शिक्षक का आकलन शामिल है",
+      "यह केवल खेलकूद का मूल्यांकन करता है",
+      "यह पाठ्यपुस्तकों को समाप्त करता है"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "The 360-degree Holistic Progress Card assesses learners across cognitive, socio-emotional, and psychomotor domains, integrating self, peer, and teacher evaluations.",
+    "explanationHi": "समग्र प्रगति कार्ड (HPC) संज्ञानात्मक, भावात्मक और क्रियात्मक विकास का 360-डिग्री समग्र रिपोर्ट कार्ड है जिसमें स्व-मूल्यांकन व सहपाठी मूल्यांकन शामिल है।",
+    "difficulty": "Medium",
+    "tags": [
+      "HPC",
+      "NEP 2020",
+      "Evaluation"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-49",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "PARAKH National Assessment Centre",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "What is the statutory role of 'PARAKH' (Performance Assessment, Review, and Analysis of Knowledge for Holistic Development) established by NCERT under NEP 2020?",
+    "questionTextHi": "एनईपी 2020 के अंतर्गत एनसीईआरटी द्वारा स्थापित 'परख' (PARAKH) का मुख्य वैधानिक दायित्व क्या है?",
+    "optionsEn": [
+      "Printing state textbooks exclusively",
+      "Setting assessment standards, learning benchmarks, and guiding all school boards across India for uniform evaluation norms",
+      "Conducting university admissions",
+      "Auditing midday meal food quality"
+    ],
+    "optionsHi": [
+      "केवल पाठ्यपुस्तकों की छपाई करना",
+      "देश भर के सभी स्कूल बोर्डों के लिए मूल्यांकन मानक तय करना तथा एकसमान मूल्यांकन दिशा-निर्देश प्रदान करना",
+      "विश्वविद्यालय प्रवेश परीक्षा लेना",
+      "मिड-डे मील की जांच करना"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "PARAKH serves as a standard-setting body to establish norms, benchmarks, and recommendations for assessment and evaluation across all recognized school boards in India.",
+    "explanationHi": "परख (PARAKH) देश भर के सभी मान्यता प्राप्त शिक्षा बोर्डों में मूल्यांकन के एकरूप मानक और अधिगम प्रतिफल निर्धारित करने वाला राष्ट्रीय केंद्र है।",
+    "difficulty": "Medium",
+    "tags": [
+      "PARAKH",
+      "Assessment Standards",
+      "NEP 2020"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-50",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "Criterion-Referenced vs Norm-Referenced Tests",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "In educational measurement, what distinguishes a 'Criterion-Referenced Test' (CRT) from a 'Norm-Referenced Test' (NRT)?",
+    "questionTextHi": "शैक्षिक मापन में 'निकष-संदर्भित परीक्षण' (CRT) को 'मानक-संदर्भित परीक्षण' (NRT) से कौन सी विशेषता अलग करती है?",
+    "optionsEn": [
+      "A CRT compares a student's performance against predefined absolute learning objectives/standards, whereas an NRT ranks students relative to a peer group",
+      "A CRT tests only physical fitness",
+      "An NRT has no passing marks",
+      "CRT is used only in primary school"
+    ],
+    "optionsHi": [
+      "सीआरटी छात्र के प्रदर्शन की तुलना पूर्व-निर्धारित अधिगम मानकों/उद्देश्यों से करता है, जबकि एनआरटी छात्रों की आपस में तुलना कर रैंक निर्धारित करता है",
+      "सीआरटी केवल शारीरिक दक्षता नापता है",
+      "एनआरटी में कोई पासिंग अंक नहीं होते",
+      "सीआरटी केवल प्राथमिक स्तर पर होता है"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "Criterion-referenced testing assesses whether an individual has achieved specific learning criteria/competencies regardless of how other students scored.",
+    "explanationHi": "निकष-संदर्भित परीक्षण (CRT) में छात्र की उपलब्धि का मूल्यांकन पूर्व-निर्धारित दक्षताओं के आधार पर किया जाता है, किसी अन्य छात्र के सापेक्ष नहीं।",
+    "difficulty": "Hard",
+    "tags": [
+      "Criterion-Referenced Test",
+      "Norm-Referenced",
+      "Measurement"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-51",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "Psychometric Concepts: Reliability and Validity",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "If an educational test consistently yields the same scores for the same students upon repeated administrations under identical conditions, the test possesses high:",
+    "questionTextHi": "यदि कोई शैक्षिक परीक्षण समान परिस्थितियों में बार-बार लिए जाने पर भी छात्रों को समान अंक प्रदान करता है, तो उस परीक्षण में उच्च स्तर की क्या पाई जाती है?",
+    "optionsEn": [
+      "Validity (वैधता)",
+      "Reliability (विश्वसनीयता)",
+      "Objectivity (वस्तुनिष्ठता)",
+      "Usability (उपयोगिता)"
+    ],
+    "optionsHi": [
+      "वैधता (Validity)",
+      "विश्वसनीयता (Reliability)",
+      "वस्तुनिष्ठता (Objectivity)",
+      "उपयोगिता (Usability)"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Reliability refers to the consistency or repeatability of measurement scores across repeated tests or different raters.",
+    "explanationHi": "मापन की स्थिरता, निरंतरता और संगति को 'विश्वसनीयता' (Reliability) कहा जाता है।",
+    "difficulty": "Medium",
+    "tags": [
+      "Reliability",
+      "Measurement",
+      "Validity"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-52",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "Psychometric Concepts: Validity",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "The degree to which an examination actually measures what it purports or intends to measure is defined as its:",
+    "questionTextHi": "कोई परीक्षा वास्तव में उसी योग्यता या ज्ञान का मापन करती है जिसके लिए उसका निर्माण किया गया है, यह गुण क्या कहलाता है?",
+    "optionsEn": [
+      "Reliability",
+      "Validity (वैधता)",
+      "Standardization",
+      "Difficulty index"
+    ],
+    "optionsHi": [
+      "विश्वसनीयता",
+      "वैधता (Validity)",
+      "मानकीकरण",
+      "कठिनाई स्तर"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Validity is the most vital psychometric property: whether a test truly measures the specific construct it claims to measure.",
+    "explanationHi": "वैधता (Validity) परीक्षण की वह क्षमता है जिससे वह उसी उद्देश्य का मापन करता है जिसके लिए वह बना है।",
+    "difficulty": "Easy",
+    "tags": [
+      "Validity",
+      "Educational Measurement"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-53",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "Bloom's Revised Taxonomy in Assessment",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "In Anderson & Krathwohl's Revised Bloom's Taxonomy of cognitive domains, which is the highest cognitive process level?",
+    "questionTextHi": "एंडरसन और क्रैथवोहल द्वारा संशोधित ब्लूम के संज्ञानात्मक वर्गीकरण में सर्वोच्च स्तर कौन सा है?",
+    "optionsEn": [
+      "Evaluating",
+      "Creating (सृजन / निर्माण करना)",
+      "Analyzing",
+      "Applying"
+    ],
+    "optionsHi": [
+      "मूल्यांकन (Evaluating)",
+      "सृजन / निर्माण करना (Creating)",
+      "विश्लेषण (Analyzing)",
+      "अनुप्रयोग (Applying)"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "The revised cognitive levels from lowest to highest are: Remembering, Understanding, Applying, Analyzing, Evaluating, and Creating.",
+    "explanationHi": "संशोधित ब्लूम वर्गीकरण में उच्चतम स्तर 'Creating' (सृजन करना/नया विचार रचना) है।",
+    "difficulty": "Medium",
+    "tags": [
+      "Bloom's Taxonomy",
+      "Cognitive Levels",
+      "Pedagogy"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-54",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "Diagnostic Assessment and Remedial Teaching",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "What is the primary function of a 'Diagnostic Test' administered by school educators?",
+    "questionTextHi": "शिक्षकों द्वारा लिए जाने वाले 'नैदानिक परीक्षण' (Diagnostic Test) का प्राथमिक उद्देश्य क्या होता है?",
+    "optionsEn": [
+      "To fail weak students in the term examination",
+      "To identify specific learning difficulties, misconceptions, and conceptual gaps of individual students to design remedial instruction",
+      "To award merit scholarships",
+      "To rank classes across the school"
+    ],
+    "optionsHi": [
+      "सत्र परीक्षा में कमजोर छात्रों को अनुत्तीर्ण करना",
+      "विद्यार्थियों की विशिष्ट अधिगम कठिनाइयों, भ्रांतियों और कमियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाना",
+      "मेधावी छात्रवृत्ति देना",
+      "कक्षाओं की तुलनात्मक रैंकिंग करना"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Diagnostic assessment identifies persistent or recurring learning difficulties that are left uncorrected by standard classroom instruction.",
+    "explanationHi": "नैदानिक परीक्षण का उद्देश्य विद्यार्थी की अधिगम संबंधी कमजोरियों और कारणों का पता लगाना है ताकि उनका सटीक उपचारात्मक शिक्षण किया जा सके।",
+    "difficulty": "Easy",
+    "tags": [
+      "Diagnostic Assessment",
+      "Remedial Teaching"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-55",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "National Achievement Survey (NAS)",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "What is the core purpose of the periodic National Achievement Survey (NAS) conducted across Indian schools?",
+    "questionTextHi": "भारतीय विद्यालयों में समय-समय पर आयोजित होने वाले राष्ट्रीय उपलब्धि सर्वेक्षण (NAS) का मुख्य उद्देश्य क्या है?",
+    "optionsEn": [
+      "Declaring individual pass/fail results of children",
+      "Evaluating the overall health of the school education system and providing data-driven feedback on systemic learning outcomes",
+      "Promoting teachers to administrative posts",
+      "Conducting university entrance screening"
+    ],
+    "optionsHi": [
+      "बच्चों के व्यक्तिगत पास/फेल परिणाम घोषित करना",
+      "स्कूली शिक्षा व्यवस्था के स्वास्थ्य का मूल्यांकन करना तथा सीखने के प्रतिफलों (Learning Outcomes) पर साक्ष्य-आधारित नीतिगत प्रतिपुष्टि देना",
+      "शिक्षकों को प्रशासनिक पदों पर पदोन्नत करना",
+      "विश्वविद्यालय प्रवेश परीक्षा लेना"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "NAS is a sample-based survey that reflects the health of the educational system, measuring children's learning competencies at Classes 3, 5, 8, and 10.",
+    "explanationHi": "राष्ट्रीय उपलब्धि सर्वेक्षण (NAS) स्कूली शिक्षा प्रणाली की प्रभावशीलता और बच्चों की दक्षताओं का आकलन करने वाला राष्ट्रीय स्तर का सर्वेक्षण है।",
+    "difficulty": "Medium",
+    "tags": [
+      "NAS",
+      "Learning Outcomes",
+      "Educational Policy"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-56",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "NEP 2020 Foundational Literacy and Numeracy (FLN)",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "What national deadline has been set under the NIPUN Bharat Mission for every child to attain foundational literacy and numeracy by the end of Grade 3?",
+    "questionTextHi": "निपुण भारत मिशन के तहत प्रत्येक बच्चे द्वारा कक्षा 3 के अंत तक बुनियादी साक्षरता और संख्याज्ञान (FLN) प्राप्त करने का राष्ट्रीय लक्ष्य वर्ष क्या निर्धारित किया गया है?",
+    "optionsEn": [
+      "2024-25",
+      "2026-27",
+      "2030-31",
+      "2035-36"
+    ],
+    "optionsHi": [
+      "2024-25",
+      "2026-27",
+      "2030-31",
+      "2035-36"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Under NIPUN Bharat launched pursuant to NEP 2020, universal acquisition of FLN by Grade 3 is targeted for achievement by 2026-27.",
+    "explanationHi": "एनईपी 2020 के अंतर्गत निपुण भारत मिशन का लक्ष्य वर्ष 2026-27 तक प्रत्येक बच्चे को बुनियादी साक्षरता व संख्याज्ञान में दक्ष बनाना है।",
+    "difficulty": "Medium",
+    "tags": [
+      "NIPUN Bharat",
+      "FLN",
+      "NEP 2020"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-57",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "Item Analysis in Educational Testing",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "In psychometrics, an examination question having a 'Difficulty Value' (p-value) of 0.85 indicates that:",
+    "questionTextHi": "मनोमिति एवं परीक्षण में, किसी प्रश्न का 'कठिनाई मान' (Difficulty Index / p-value) यदि 0.85 है, तो यह क्या दर्शाता है?",
+    "optionsEn": [
+      "The item is very difficult and only 15% answered correctly",
+      "The item is relatively easy as 85% of test-takers answered it correctly",
+      "The item has negative discrimination",
+      "The question contains defective distractors"
+    ],
+    "optionsHi": [
+      "प्रश्न बहुत कठिन है और केवल 15% ने सही उत्तर दिया",
+      "प्रश्न अपेक्षाकृत सरल है क्योंकि 85% परीक्षार्थियों ने इसका सही उत्तर दिया है",
+      "प्रश्न में नकारात्मक विभेदन है",
+      "प्रश्न में त्रुटिपूर्ण विकल्प हैं"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Difficulty index (p) is the proportion of examinees who answered the item correctly. A value of 0.85 means 85% passed the item (making it an easy item).",
+    "explanationHi": "कठिनाई सूचकांक सही उत्तर देने वाले परीक्षार्थियों का अनुपात होता है। 0.85 का अर्थ है कि 85% परीक्षार्थियों ने सही उत्तर दिया, अतः प्रश्न सरल है।",
+    "difficulty": "Medium",
+    "tags": [
+      "Item Analysis",
+      "Difficulty Index",
+      "Evaluation"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-58",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "Rubrics in Authentic Assessment",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "What is an 'Analytic Rubric' used by school leadership and teachers for authentic performance assessment?",
+    "questionTextHi": "शिक्षकों एवं प्रधानाचार्यों द्वारा प्रामाणिक निष्पादन मूल्यांकन हेतु प्रयुक्त 'विश्लेषणात्मक रूब्रिक' (Analytic Rubric) क्या होता है?",
+    "optionsEn": [
+      "A simple single numerical pass percentage mark",
+      "A scoring guide that evaluates student performance on multiple distinct criteria or dimensions with explicit descriptive achievement levels",
+      "An attendance checklist",
+      "A multiple choice test scoring key"
+    ],
+    "optionsHi": [
+      "एक साधारण पास प्रतिशत अंक",
+      "एक मूल्यांकन मार्गदर्शिका जो बहु-आयामी मानदंडों पर स्पष्ट वर्णनात्मक स्तरों के साथ छात्र निष्पादन का पृथक-पृथक मूल्यांकन करती है",
+      "दैनिक उपस्थिति जांच सूची",
+      "वस्तुनिष्ठ प्रश्न उत्तर कुंजी"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "An analytic rubric identifies separate criteria for assessment and provides detailed descriptions of performance at each level for each criterion.",
+    "explanationHi": "विश्लेषणात्मक रूब्रिक विभिन्न कौशलों व मानदंडों पर विद्यार्थी के प्रदर्शन का स्पष्ट वर्णनात्मक पैमानों पर सटीक मूल्यांकन करता है।",
+    "difficulty": "Medium",
+    "tags": [
+      "Rubrics",
+      "Performance Assessment",
+      "Evaluation"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-59",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "NEP 2020 Board Examination Reforms",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "How does NEP 2020 recommend reforming Grade 10 and 12 Board Examinations to eliminate high-stakes coaching culture?",
+    "questionTextHi": "एनईपी 2020 कोचिंग संस्कृति को समाप्त करने हेतु कक्षा 10 एवं 12 की बोर्ड परीक्षाओं में किस सुधार की अनुशंसा करती है?",
+    "optionsEn": [
+      "Abolish all secondary schools",
+      "Make board examinations test core competencies rather than rote memorization, and offer examinations on up to two occasions in a given school year",
+      "Double the syllabus syllabus volume",
+      "Rely entirely on physical sports"
+    ],
+    "optionsHi": [
+      "सभी माध्यमिक विद्यालय बंद करना",
+      "बोर्ड परीक्षाओं में रटंत प्रणाली के स्थान पर मूल दक्षताओं का परीक्षण करना और वर्ष में दो बार परीक्षा का अवसर प्रदान करना",
+      "पाठ्यक्रम का आकार दोगुना करना",
+      "केवल खेलों पर निर्भर रहना"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "NEP 2020 recommends that Board exams test core concepts and higher-order capacities, allowing students to take them on up to two occasions to reduce stress.",
+    "explanationHi": "एनईपी 2020 बोर्ड परीक्षाओं को रटने के बजाय मुख्य दक्षताओं पर केंद्रित करने तथा तनाव कम करने हेतु साल में दो बार अवसर देने का प्रस्ताव करती है।",
+    "difficulty": "Medium",
+    "tags": [
+      "NEP 2020",
+      "Board Examination Reforms"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  },
+  {
+    "id": "upsc-crt-60",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-4",
+    "topic": "Educational Policies, Educational Measurement and Evaluation",
+    "topicHi": "शैक्षिक नीतियां, शैक्षिक मापन एवं मूल्यांकन",
+    "subtopic": "Standard Error of Measurement",
+    "officialReference": "UPSC CRT Syllabus Area 4",
+    "questionTextEn": "What does the 'Standard Error of Measurement' (SEM) reflect regarding a student's observed examination score?",
+    "questionTextHi": "शैक्षिक मापन में 'मापन की मानक त्रुटि' (SEM) विद्यार्थी के प्राप्त अंक के संदर्भ में क्या दर्शाती है?",
+    "optionsEn": [
+      "The student cheated in the exam",
+      "The expected dispersion or band of error around the student's true score due to imperfect measurement reliability",
+      "The cost of printing the exam paper",
+      "The teacher's typing errors"
+    ],
+    "optionsHi": [
+      "छात्र ने परीक्षा में अनुचित साधन का प्रयोग किया",
+      "मापन की अपूर्ण विश्वसनीयता के कारण छात्र के वास्तविक अंक के आसपास संभावित विचलन या त्रुटि का दायरा",
+      "प्रश्न-पत्र मुद्रण की लागत",
+      "शिक्षक की टंकण त्रुटि"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "SEM estimates how much an individual's observed score is expected to vary from their true score across repeated test administrations.",
+    "explanationHi": "मापन की मानक त्रुटि (SEM) यह दर्शाती है कि परीक्षण की स्वाभाविक सीमाओं के कारण वास्तविक अंक में कितना संभावित विचलन हो सकता है।",
+    "difficulty": "Hard",
+    "tags": [
+      "SEM",
+      "Educational Measurement",
+      "Psychometrics"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true
+  }
+]

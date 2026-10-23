@@ -1,0 +1,767 @@
+[
+  {
+    "id": "upsc-crt-196",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "CSMOP - Classification of Official Records",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "Department of Administrative Reforms and Public Grievances (DARPG)",
+      "citation": "CSMOP 2022, Chapter 10",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-CSMOP-RECORD-CLASSIFICATION-ABC",
+    "learningObjective": "Tests Central Secretariat Manual of Office Procedure record retention classifications",
+    "statuteOrScheme": "Central Secretariat Manual of Office Procedure (CSMOP 2022)",
+    "effectiveRuleDate": "Chapter 10 Record Management",
+    "questionTextEn": "According to the Central Secretariat Manual of Office Procedure (CSMOP), official files categorized as 'Class A' (Category A) records have what mandatory retention requirement?",
+    "questionTextHi": "केंद्रीय सचिवालय कार्यालय पद्धति नियम पुस्तिका (CSMOP) के अनुसार, 'वर्ग A' (Category A) के रूप में वर्गीकृत आधिकारिक फाइलों के लिए क्या अनिवार्य संरक्षण नियम है?",
+    "optionsEn": [
+      "Preserved permanently with microfilming / digital preservation due to historical, administrative, or statutory significance",
+      "Destroyed after 1 year of audit completion",
+      "Retained for 5 years and then shredded without review",
+      "Handed over to private vendors for recycling"
+    ],
+    "optionsHi": [
+      "ऐतिहासिक, प्रशासनिक या वैधानिक महत्व के कारण माइक्रोफिल्मिंग / डिजिटल संरक्षण के साथ स्थायी रूप से सुरक्षित रखना",
+      "ऑडिट पूरा होने के 1 वर्ष बाद नष्ट करना",
+      "5 वर्ष तक रखना और फिर बिना समीक्षा के नष्ट करना",
+      "रीसाइक्लिंग के लिए निजी विक्रेताओं को सौंपना"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "Category A files possess enduring administrative, historical, or legal importance and must be preserved permanently with microfilming / digital archiving.",
+    "explanationHi": "वर्ग 'A' की फाइलें ऐतिहासिक व वैधानिक दृष्टि से अत्यंत महत्वपूर्ण होती हैं और इन्हें स्थायी रूप से (Permanently) सुरक्षित रखा जाता है।",
+    "difficulty": "Medium",
+    "tags": [
+      "CSMOP",
+      "Record Management",
+      "Office Procedure",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffcsmoprecordclassificationabc|centralsecretariatmanualofofficeprocedurecsmop2022|according_the_central_secretariat_manual_office_procedure_csmop_official_files_categorized_class|csmop_category"
+  },
+  {
+    "id": "upsc-crt-197",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "RTI Act 2005 - Section 7(1) Life and Liberty Timeline",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "Ministry of Law and Justice",
+      "citation": "The Gazette of India, Act No. 22 of 2005",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-RTI2005-LIFE-AND-LIBERTY-48HRS",
+    "learningObjective": "Tests emergency response timeline for life and liberty RTI requests",
+    "statuteOrScheme": "Right to Information Act, 2005",
+    "effectiveRuleDate": "Section 7(1) Proviso",
+    "questionTextEn": "Under the proviso to Section 7(1) of the Right to Information (RTI) Act 2005, when the information sought concerns the 'life or liberty' of a person, within what strict timeline must the Public Information Officer (PIO) provide the information?",
+    "questionTextHi": "सूचना का अधिकार (RTI) अधिनियम 2005 की धारा 7(1) के परंतुक के अनुसार, जब मांगी गई सूचना किसी व्यक्ति के 'जीवन या स्वतंत्रता' से संबंधित हो, तो लोक सूचना अधिकारी (PIO) को कितने समय के भीतर सूचना उपलब्ध कराना अनिवार्य है?",
+    "optionsEn": [
+      "Within 24 hours",
+      "Within 48 hours",
+      "Within 7 days",
+      "Within 30 days"
+    ],
+    "optionsHi": [
+      "24 घंटे के भीतर",
+      "48 घंटे के भीतर",
+      "7 दिनों के भीतर",
+      "30 दिनों के भीतर"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Section 7(1) provides: 'provided that where the information sought for concerns the life or liberty of a person, the same shall be provided within forty-eight hours of the receipt of the request.'",
+    "explanationHi": "धारा 7(1) के अनुसार जीवन और व्यक्तिगत स्वतंत्रता से संबंधित सूचना 48 घंटे के भीतर दी जानी अनिवार्य है।",
+    "difficulty": "Easy",
+    "tags": [
+      "RTI Act 2005",
+      "Section 7(1)",
+      "Life and Liberty",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffrti2005lifeandliberty48hrs|righttoinformationact2005|under_the_proviso_section_the_right_information_rti_act_2005_when_the|rti_2005_pio_समय_उपलब"
+  },
+  {
+    "id": "upsc-crt-198",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "CCS (Leave) Rules 1972 - Child Care Leave (CCL) Entitlement",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "Department of Personnel and Training (DoPT)",
+      "citation": "DoPT Notification on Rule 43-C",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-CCS-LEAVE-CHILD-CARE-LEAVE",
+    "learningObjective": "Tests maximum days and conditions for Child Care Leave under Rule 43-C",
+    "statuteOrScheme": "Central Civil Services (Leave) Rules, 1972",
+    "effectiveRuleDate": "Rule 43-C Child Care Leave",
+    "questionTextEn": "Under Rule 43-C of the CCS (Leave) Rules 1972, what is the maximum total duration of Child Care Leave (CCL) admissible to a female government servant during her entire service career for taking care of her two eldest surviving children?",
+    "questionTextHi": "सीसीएस (अवकाश) नियमावली 1972 के नियम 43-C के तहत, एक महिला सरकारी कर्मचारी को अपने दो ज्येष्ठ जीवित बच्चों की देखभाल हेतु संपूर्ण सेवाकाल के दौरान अधिकतम कितने दिनों का बाल देखभाल अवकाश (Child Care Leave - CCL) दिया जा सकता है?",
+    "optionsEn": [
+      "180 days",
+      "365 days",
+      "730 days (2 years)",
+      "1095 days (3 years)"
+    ],
+    "optionsHi": [
+      "180 दिन",
+      "365 दिन",
+      "730 दिन (2 वर्ष)",
+      "1095 दिन (3 वर्ष)"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "Rule 43-C grants female government servants (and single male parents) a maximum of 730 days of Child Care Leave during their entire service for taking care of up to two eldest surviving children.",
+    "explanationHi": "नियम 43-C के अंतर्गत महिला कर्मचारी को पूरे सेवाकाल में अधिकतम 730 दिन (2 वर्ष) का बाल देखभाल अवकाश (CCL) अनुमन्य होता है।",
+    "difficulty": "Easy",
+    "tags": [
+      "CCS Leave Rules",
+      "Rule 43-C",
+      "Child Care Leave",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffccsleavechildcareleave|centralcivilservicesleaverules1972|under_rule_the_ccs_leave_rules_1972_what_the_maximum_total_duration|अवक_1972_तहत_सरक_अपन_कतम_अवक_child_care_leave_ccl_सकत"
+  },
+  {
+    "id": "upsc-crt-199",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "CCS (Leave) Rules 1972 - Earned Leave Accumulation Ceiling",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "DoPT, Government of India",
+      "citation": "Swamy's Handbook on Leave Rules",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-CCS-LEAVE-EARNED-LEAVE-CEILING",
+    "learningObjective": "Tests maximum accumulation ceiling of Earned Leave for encashment upon retirement",
+    "statuteOrScheme": "Central Civil Services (Leave) Rules, 1972",
+    "effectiveRuleDate": "Rule 26 & Rule 39 Earned Leave",
+    "questionTextEn": "Under the CCS (Leave) Rules 1972, what is the maximum ceiling up to which Earned Leave (EL) can be accumulated and encashed at the time of superannuation / retirement?",
+    "questionTextHi": "सीसीएस (अवकाश) नियमावली 1972 के अनुसार, सेवानिवृत्ति के समय नकदीकरण (Leave Encashment) हेतु अर्जित अवकाश (Earned Leave - EL) के संचय की अधिकतम सीमा क्या है?",
+    "optionsEn": [
+      "180 days",
+      "240 days",
+      "300 days",
+      "360 days"
+    ],
+    "optionsHi": [
+      "180 दिन",
+      "240 दिन",
+      "300 दिन",
+      "360 दिन"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "Earned Leave can be accumulated up to 300 days for encashment at the time of retirement under Rule 39 of CCS (Leave) Rules.",
+    "explanationHi": "सेवानिवृत्ति पर अधिकतम 300 दिनों के अर्जित अवकाश (EL) का नकदीकरण अनुमन्य होता है।",
+    "difficulty": "Easy",
+    "tags": [
+      "CCS Leave Rules",
+      "Earned Leave",
+      "Encashment",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffccsleaveearnedleaveceiling|centralcivilservicesleaverules1972|under_the_ccs_leave_rules_1972_what_the_maximum_ceiling_which_earned|अवक_1972_समय_नकद_करण_leave_encashment_अवक_earned_leave_कतम"
+  },
+  {
+    "id": "upsc-crt-200",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "RTI Act 2005 - Section 8 Exemptions from Disclosure",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "Ministry of Law and Justice",
+      "citation": "The Gazette of India, Act No. 22 of 2005",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-RTI2005-SECTION-8-EXEMPTIONS",
+    "learningObjective": "Tests statutory grounds of exemption from disclosure under Section 8(1)",
+    "statuteOrScheme": "Right to Information Act, 2005",
+    "effectiveRuleDate": "Section 8(1)(j) Personal Information",
+    "questionTextEn": "Under Section 8(1)(j) of the RTI Act 2005, when is personal information exempted from mandatory disclosure to an applicant?",
+    "questionTextHi": "आरटीई अधिनियम 2005 की धारा 8(1)(j) के अंतर्गत, व्यक्तिगत जानकारी को आवेदक को प्रकटीकरण से कब छूट प्राप्त होती है?",
+    "optionsEn": [
+      "When it relates to personal information disclosure of which has no relationship to any public activity or interest, or would cause unwarranted invasion of the individual's privacy (unless larger public interest justifies)",
+      "When the applicant has not paid an advance penalty fee",
+      "Whenever the information relates to any government employee's official designation",
+      "In all cases where the applicant is a private citizen"
+    ],
+    "optionsHi": [
+      "जब यह ऐसी व्यक्तिगत जानकारी हो जिसका किसी लोक गतिविधि या लोक हित से कोई संबंध न हो, अथवा जिससे व्यक्ति की निजता में अवांछित हस्तक्षेप होता हो (जब तक कि व्यापक लोकहित उचित न ठहराए)",
+      "जब आवेदक ने अग्रिम जुर्माना शुल्क जमा न किया हो",
+      "जब भी सूचना किसी सरकारी कर्मचारी के आधिकारिक पदनाम से संबंधित हो",
+      "उन सभी मामलों में जहां आवेदक एक निजी नागरिक हो"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "Section 8(1)(j) exempts personal information having no relation to any public activity or which causes unwarranted invasion of privacy, unless the CPIO/Appellate Authority is satisfied that larger public interest justifies disclosure.",
+    "explanationHi": "धारा 8(1)(j) के अनुसार व्यक्तिगत जानकारी, जिसका सार्वजनिक गतिविधि या व्यापक लोकहित से कोई संबंध नहीं है और जिससे निजता का हनन होता है, प्रकटीकरण से मुक्त है।",
+    "difficulty": "Medium",
+    "tags": [
+      "RTI Act 2005",
+      "Section 8(1)(j)",
+      "Privacy",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffrti2005section8exemptions|righttoinformationact2005|under_section_the_rti_act_2005_when_personal_information_exempted_from_mandatory|आरट_2005_रकट_करण"
+  },
+  {
+    "id": "upsc-crt-201",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "Service Book Maintenance - Annual Verification",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "Department of Personnel and Training (DoPT)",
+      "citation": "Compilation of the Fundamental Rules and Supplementary Rules",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-SERVICE-BOOK-ANNUAL-ATTESTATION",
+    "learningObjective": "Tests mandatory annual verification entry in official Service Book under SR 199/202",
+    "statuteOrScheme": "Supplementary Rules (SR)",
+    "effectiveRuleDate": "SR 199 and SR 202 Service Book",
+    "questionTextEn": "Under Supplementary Rules (SR) 199 and 202, what annual statutory action must the Head of Office / Principal perform regarding every employee's Service Book?",
+    "questionTextHi": "पूरक नियम (SR) 199 और 202 के अनुसार, प्रत्येक कर्मचारी की सेवा पुस्तिका (Service Book) के संबंध में कार्यालय प्रमुख / प्रधानाचार्य को कौन सी वार्षिक वैधानिक कार्रवाई करनी चाहिए?",
+    "optionsEn": [
+      "Destroy the old service book and purchase a new one",
+      "Verify the service recorded during the year from pay bills and acquittance rolls, record a certificate of verification, and communicate the verified record to the employee",
+      "Retain the service book in an unverified state until the year of retirement",
+      "Hand over custody of the service book directly to the employee's family"
+    ],
+    "optionsHi": [
+      "पुरानी सेवा पुस्तिका नष्ट कर नई खरीदना",
+      "वेतन बिलों और प्राप्ति पंजियों से वर्ष के दौरान की सेवा का सत्यापन करना, सत्यापन का प्रमाण पत्र दर्ज करना और सत्यापित विवरण कर्मचारी को संसूचित करना",
+      "सेवानिवृत्ति के वर्ष तक सेवा पुस्तिका को बिना सत्यापित किए रखना",
+      "सेवा पुस्तिका की कस्टडी सीधे कर्मचारी के परिवार को सौंप देना"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "SR 202 mandates that the Head of Office must verify entries in the Service Book annually with reference to pay bills and records, record a certificate of verification, and show it to the employee.",
+    "explanationHi": "SR 202 के तहत प्रत्येक वर्ष वेतन बिलों से सेवा का मिलान कर सत्यापन प्रमाण पत्र दर्ज करना और कर्मचारी को सेवा पुस्तिका दिखाना अनिवार्य है।",
+    "difficulty": "Medium",
+    "tags": [
+      "Service Book",
+      "SR 202",
+      "Establishment",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffservicebookannualattestation|supplementaryrulessr|under_supplementary_rules_199_and_202_what_annual_statutory_action_must_the|199_202_service_book_करन"
+  },
+  {
+    "id": "upsc-crt-202",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "Central Secretariat - Official Note-Sheet Drafting Rules",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "DARPG, Government of India",
+      "citation": "CSMOP 2022 Manual",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-CSMOP-NOTE-SHEET-DRAFTING",
+    "learningObjective": "Tests official protocol for drafting notes, referencing, and marginal notes on files",
+    "statuteOrScheme": "Central Secretariat Manual of Office Procedure",
+    "effectiveRuleDate": "Chapter 7 Noting and Drafting",
+    "questionTextEn": "In standard central government office procedure (CSMOP), what is the correct practice when drafting an official 'Note' on a file?",
+    "questionTextHi": "केंद्रीय सचिवालय कार्यालय पद्धति (CSMOP) के अनुसार, किसी फाइल पर आधिकारिक 'नोट' (टिप्पणी) तैयार करते समय कौन सी मानक कार्यप्रणाली अपनाई जाती है?",
+    "optionsEn": [
+      "Writing personal opinions, emotional outbursts, and colloquial insults",
+      "Using concise, objective, courteous language, stating clear facts, referencing relevant rules/precedents, and appending the officer's signature/initial with date and designation",
+      "Tearing off previous pages of the note-sheet if a decision is reconsidered",
+      "Writing with pencils without recording dates"
+    ],
+    "optionsHi": [
+      "व्यक्तिगत राय, भावनात्मक आक्रोश और अनौपचारिक अपमानजनक शब्दों का प्रयोग करना",
+      "संक्षिप्त, निष्पक्ष, शिष्ट भाषा का प्रयोग करना, स्पष्ट तथ्य और सुसंगत नियमों/पूर्व दृष्टांतों का संदर्भ देना तथा पदनाम व तिथि सहित हस्ताक्षर/आद्याक्षर करना",
+      "पुनर्विचार होने पर नोट-शीट के पुराने पृष्ठों को फाड़ देना",
+      "बिना तिथि दर्ज किए पेंसिल से लिखना"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Noting must be objective, lucid, free from personal animus, substantiated by rules and facts, properly paragraph-numbered, and dated with signature.",
+    "explanationHi": "टिप्पणी (Note-sheet) संक्षिप्त, निष्पक्ष, सुसंगत नियमों व तथ्यों पर आधारित, शिष्ट भाषा में और अधिकारी के पदनाम व तिथि सहित हस्ताक्षरित होनी चाहिए।",
+    "difficulty": "Easy",
+    "tags": [
+      "CSMOP",
+      "Noting and Drafting",
+      "Office Management",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffcsmopnotesheetdrafting|centralsecretariatmanualofofficeprocedure|standard_central_government_office_procedure_csmop_what_the_correct_practice_when_drafting|csmop_करत_समय_अपन"
+  },
+  {
+    "id": "upsc-crt-203",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "CCS (Leave) Rules 1972 - Commuted Leave on Medical Certificate",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "DoPT, Government of India",
+      "citation": "Swamy's Guide on Leave Rules",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-CCS-LEAVE-COMMUTED-LEAVE",
+    "learningObjective": "Tests conversion and debit ratio of Half Pay Leave to Commuted Leave",
+    "statuteOrScheme": "Central Civil Services (Leave) Rules, 1972",
+    "effectiveRuleDate": "Rule 30 Commuted Leave",
+    "questionTextEn": "Under Rule 30 of the CCS (Leave) Rules 1972, when an employee avails 'Commuted Leave' on medical certificate, what is the debit ratio against their Half Pay Leave (HPL) account?",
+    "questionTextHi": "सीसीएस (अवकाश) नियमावली 1972 के नियम 30 के अंतर्गत, जब कोई कर्मचारी चिकित्सा प्रमाण पत्र पर 'रूपांतरित अवकाश' (Commuted Leave) लेता है, तो उसके अर्ध-वेतन अवकाश (HPL) खाते से कटौती का अनुपात क्या होता है?",
+    "optionsEn": [
+      "One day of HPL debited for each day of Commuted Leave",
+      "Twice the number of days of Commuted Leave debited from the HPL account",
+      "Three times the number of days debited",
+      "No debit from any leave account"
+    ],
+    "optionsHi": [
+      "रूपांतरित अवकाश के प्रत्येक दिन के लिए एक दिन का HPL काटा जाता है",
+      "HPL खाते से रूपांतरित अवकाश के दिनों की दोगुनी संख्या (2 days of HPL per day of commuted leave) काटी जाती है",
+      "तीन गुने दिनों की कटौती की जाती है",
+      "किसी भी अवकाश खाते से कोई कटौती नहीं की जाती"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Commuted leave is granted on medical certificate up to maximum HPL balance, and twice the amount of such leave taken is debited against the half pay leave due.",
+    "explanationHi": "नियम 30 के अनुसार रूपांतरित अवकाश लेने पर कर्मचारी को पूर्ण वेतन मिलता है, लेकिन उसके HPL खाते से लिए गए अवकाश का दोगुना (Double) काटा जाता है।",
+    "difficulty": "Medium",
+    "tags": [
+      "CCS Leave Rules",
+      "Commuted Leave",
+      "HPL",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffccsleavecommutedleave|centralcivilservicesleaverules1972|under_rule_the_ccs_leave_rules_1972_when_employee_avails_commuted_leave|अवक_1972_अवक_commuted_leave_उसक_अवक_hpl"
+  },
+  {
+    "id": "upsc-crt-204",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "POSH Act 2013 - Internal Complaints Committee (ICC) Composition",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "Ministry of Women and Child Development",
+      "citation": "The Gazette of India, Act No. 14 of 2013",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-POSH2013-ICC-COMPOSITION",
+    "learningObjective": "Tests statutory composition and presiding officer gender requirement under POSH Act",
+    "statuteOrScheme": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+    "effectiveRuleDate": "Section 4 Constitution of ICC",
+    "questionTextEn": "Under Section 4 of the POSH Act 2013, an institution employing 10 or more employees must constitute an Internal Complaints Committee (ICC). What is the mandatory legal requirement regarding its Presiding Officer?",
+    "questionTextHi": "पॉश (POSH) अधिनियम 2013 की धारा 4 के अनुसार, 10 या अधिक कर्मचारियों वाले संस्थान में आंतरिक शिकायत समिति (ICC) का गठन अनिवार्य है। इसके पीठासीन अधिकारी (Presiding Officer) के संबंध में क्या कानूनी अनिवार्यता है?",
+    "optionsEn": [
+      "The Presiding Officer must be a senior woman employed at the workplace at a senior level amongst the employees",
+      "The Presiding Officer must always be the male head of the institution",
+      "The Presiding Officer must be a retired police sub-inspector",
+      "Any junior temporary contractual clerk can be appointed"
+    ],
+    "optionsHi": [
+      "पीठासीन अधिकारी कार्यस्थल पर कार्यरत कर्मचारियों में से वरिष्ठ स्तर पर कार्यरत एक वरिष्ठ महिला होनी चाहिए",
+      "पीठासीन अधिकारी हमेशा संस्थान का पुरुष प्रमुख ही होना चाहिए",
+      "पीठासीन अधिकारी सेवानिवृत्त पुलिस उप-निरीक्षक होना चाहिए",
+      "किसी भी कनिष्ठ अस्थायी संविदा लिपिक को नियुक्त किया जा सकता है"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "Section 4(2)(a) mandates that the Presiding Officer of the ICC shall be a woman employed at a senior level at the workplace from amongst the employees.",
+    "explanationHi": "धारा 4(2)(a) के तहत अनिवार्य है कि आंतरिक शिकायत समिति (ICC) की पीठासीन अधिकारी कार्यस्थल की वरिष्ठ महिला कर्मचारी ही होगी।",
+    "difficulty": "Easy",
+    "tags": [
+      "POSH Act 2013",
+      "Section 4",
+      "Internal Complaints Committee",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffposh2013icccomposition|sexualharassmentofwomenatworkplacepreventionprohibitionandredressalact2013|under_section_the_posh_act_2013_institution_employing_more_employees_must_constitute|posh_2013_icc_गठन_इसक_presiding_officer"
+  },
+  {
+    "id": "upsc-crt-205",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "Leave Travel Concession (LTC) - Grace Period for Block Year",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "Department of Personnel and Training (DoPT)",
+      "citation": "DoPT LTC Master Circular",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-CCS-LTC-GRACE-PERIOD",
+    "learningObjective": "Tests carry-over grace period for LTC block years under CCS LTC Rules 1988",
+    "statuteOrScheme": "Central Civil Services (Leave Travel Concession) Rules, 1988",
+    "effectiveRuleDate": "Rule 10 Carry-over of LTC",
+    "questionTextEn": "Under the CCS (LTC) Rules 1988, if a government servant is unable to avail their entitled LTC within a prescribed four-year block (or two-year sub-block), up to what grace period can it be carried forward and availed?",
+    "questionTextHi": "सीसीएस (LTC) नियमावली 1988 के अनुसार, यदि कोई सरकारी कर्मचारी निर्धारित ब्लॉक वर्ष में अपने हकदार अवकाश यात्रा रियायत (LTC) का उपयोग नहीं कर पाता है, तो उसे अधिकतम कितनी ग्रेस अवधि तक आगे ले जाकर (Carry Forward) उपयोग किया जा सकता है?",
+    "optionsEn": [
+      "Up to the end of the first year of the next block",
+      "Up to the end of the entire next 4-year block",
+      "It lapses immediately on the 31st December of the block year with no carry-over",
+      "Up to 3 years into the next block"
+    ],
+    "optionsHi": [
+      "अगले ब्लॉक वर्ष के प्रथम वर्ष के अंत तक",
+      "अगले पूरे 4-वर्षीय ब्लॉक के अंत तक",
+      "यह बिना किसी कैरी-ओवर के ब्लॉक वर्ष की 31 दिसंबर को तुरंत समाप्त हो जाता है",
+      "अगले ब्लॉक के 3 वर्ष तक"
+    ],
+    "correctOptionIndex": 0,
+    "explanationEn": "Under Rule 10, a government servant who is unable to avail LTC within the block year may carry it over to the first year of the next block period.",
+    "explanationHi": "नियम 10 के अनुसार यदि कर्मचारी ब्लॉक वर्ष में LTC नहीं ले पाता है, तो वह अगले ब्लॉक के पहले वर्ष के अंत तक उसका उपयोग कर सकता है।",
+    "difficulty": "Medium",
+    "tags": [
+      "LTC Rules",
+      "Carry Forward",
+      "Establishment",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffccsltcgraceperiod|centralcivilservicesleavetravelconcessionrules1988|under_the_ccs_ltc_rules_1988_government_servant_unable_avail_their_entitled|ltc_1988_सरक_अपन_हकद_अवक_ltc_उपय_कतम_अवध_carry_forward"
+  },
+  {
+    "id": "upsc-crt-206",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "Right of Persons with Disabilities (RPwD) Act 2016 - Reservation Quota",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "Ministry of Social Justice and Empowerment",
+      "citation": "The Gazette of India, Act No. 49 of 2016",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-RPWD2016-EMPLOYMENT-QUOTA",
+    "learningObjective": "Tests statutory percentage reservation for persons with benchmark disabilities under Section 34",
+    "statuteOrScheme": "Rights of Persons with Disabilities Act, 2016",
+    "effectiveRuleDate": "Section 34 Reservation in Employment",
+    "questionTextEn": "Under Section 34(1) of the Rights of Persons with Disabilities Act, 2016, what minimum percentage of vacancies in government establishments must be reserved for persons with benchmark disabilities?",
+    "questionTextHi": "दिव्यांगजन अधिकार (RPwD) अधिनियम 2016 की धारा 34(1) के तहत, सरकारी प्रतिष्ठानों में बेंचमार्क दिव्यांगता वाले व्यक्तियों के लिए रिक्तियों का न्यूनतम कितना प्रतिशत आरक्षण अनिवार्य है?",
+    "optionsEn": [
+      "3 percent",
+      "4 percent",
+      "5 percent",
+      "6 percent"
+    ],
+    "optionsHi": [
+      "3 प्रतिशत",
+      "4 प्रतिशत",
+      "5 प्रतिशत",
+      "6 प्रतिशत"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "The 2016 Act increased the reservation in government employment from 3% (under the 1995 Act) to not less than 4% of total vacancies across designated disability categories.",
+    "explanationHi": "धारा 34(1) के अनुसार बेंचमार्क दिव्यांगजनों के लिए सरकारी पदों की रिक्तियों में न्यूनतम 4% आरक्षण का प्रावधान है (1995 के अधिनियम में यह 3% था)।",
+    "difficulty": "Easy",
+    "tags": [
+      "RPwD Act 2016",
+      "Section 34",
+      "Disability Reservation",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffrpwd2016employmentquota|rightsofpersonswithdisabilitiesact2016|under_section_the_rights_persons_with_disabilities_act_2016_what_minimum_percentage|गजन_rpwd_2016_तहत_सरक_नतम_आरक"
+  },
+  {
+    "id": "upsc-crt-207",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "Annual Performance Assessment Report (APAR) - Numerical Grading Scale",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "Department of Personnel and Training (DoPT)",
+      "citation": "DoPT Master Circular on APAR / ACR",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-APAR-NUMERICAL-GRADING",
+    "learningObjective": "Tests 1-10 numerical grading scale and communication of adverse remarks",
+    "statuteOrScheme": "DoPT Guidelines on APAR Maintenance",
+    "effectiveRuleDate": "DoPT OM on Objective Assessment & Timelines",
+    "questionTextEn": "In modern Central Civil Services Annual Performance Assessment Reports (APAR), what is the standardized numerical grading scale on which an officer is evaluated?",
+    "questionTextHi": "केंद्रीय सिविल सेवाओं की वार्षिक कार्य निष्पादन मूल्यांकन रिपोर्ट (APAR) में, किस मानकीकृत संख्यात्मक ग्रेडिंग पैमाने (Numerical Scale) पर अधिकारी का मूल्यांकन किया जाता है?",
+    "optionsEn": [
+      "Scale of 1 to 5",
+      "Scale of 1 to 10",
+      "Scale of 1 to 20",
+      "Scale of 1 to 100"
+    ],
+    "optionsHi": [
+      "1 से 5 का पैमाना",
+      "1 से 10 का पैमाना",
+      "1 से 20 का पैमाना",
+      "1 से 100 का पैमाना"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "APAR evaluation uses a 1 to 10 numerical grading scale where 8-10 is Outstanding, 6-8 is Very Good, 4-6 is Good, and below 4 is considered adverse/below benchmark requiring communication.",
+    "explanationHi": "APAR में 1 से 10 का संख्यात्मक पैमाना प्रयुक्त होता है, जिसमें 8-10 उत्कृष्ट, 6-8 बहुत अच्छा, 4-6 अच्छा तथा 4 से कम प्रतिकूल माना जाता है।",
+    "difficulty": "Easy",
+    "tags": [
+      "APAR",
+      "DoPT",
+      "Performance Appraisal",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffaparnumericalgrading|doptguidelinesonaparmaintenance|modern_central_civil_services_annual_performance_assessment_reports_apar_what_the_standardized|apar_numerical_scale"
+  },
+  {
+    "id": "upsc-crt-208",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "Maternity Benefit - CCS (Leave) Rules 1972",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "Department of Personnel and Training (DoPT)",
+      "citation": "Swamy's Leave Rules",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-CCS-LEAVE-MATERNITY-180-DAYS",
+    "learningObjective": "Tests maximum period and pay entitlement of Maternity Leave under Rule 43",
+    "statuteOrScheme": "Central Civil Services (Leave) Rules, 1972",
+    "effectiveRuleDate": "Rule 43 Maternity Leave",
+    "questionTextEn": "Under Rule 43 of the CCS (Leave) Rules 1972, what is the maximum duration of Maternity Leave that may be granted to a female government servant with less than two surviving children?",
+    "questionTextHi": "सीसीएस (अवकाश) नियमावली 1972 के नियम 43 के अनुसार, दो से कम जीवित बच्चों वाली महिला सरकारी कर्मचारी को अधिकतम कितनी अवधि का मातृत्व अवकाश (Maternity Leave) स्वीकृत किया जा सकता है?",
+    "optionsEn": [
+      "90 days",
+      "135 days",
+      "180 days (with full pay and allowances)",
+      "240 days"
+    ],
+    "optionsHi": [
+      "90 दिन",
+      "135 दिन",
+      "180 दिन (पूर्ण वेतन और भत्तों सहित)",
+      "240 दिन"
+    ],
+    "correctOptionIndex": 2,
+    "explanationEn": "Rule 43 grants up to 180 days of maternity leave with full pay and allowances to female employees with less than two surviving children.",
+    "explanationHi": "नियम 43 के तहत दो से कम जीवित बच्चों वाली महिला कर्मचारी को 180 दिन (लगभग 6 माह) का पूर्ण वेतन सहित मातृत्व अवकाश अनुमन्य होता है।",
+    "difficulty": "Easy",
+    "tags": [
+      "Maternity Leave",
+      "Rule 43",
+      "CCS Leave Rules",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffccsleavematernity180days|centralcivilservicesleaverules1972|under_rule_the_ccs_leave_rules_1972_what_the_maximum_duration_maternity|अवक_1972_सरक_कतम_अवध_अवक_maternity_leave_सकत"
+  },
+  {
+    "id": "upsc-crt-209",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "Disciplinary Authority - Natural Justice Principles in Inquiry",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "Supreme Court of India / DoPT Vigilance Manual",
+      "citation": "DoPT Disciplinary Proceedings Handbook",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-NATURAL-JUSTICE-INQUIRY",
+    "learningObjective": "Tests the twin principles of natural justice (Audi Alteram Partem & Nemo Judex In Causa Sua) in departmental inquiries",
+    "statuteOrScheme": "Administrative Law & Service Jurisprudence",
+    "effectiveRuleDate": "Principles of Natural Justice in Disciplinary Inquiries",
+    "questionTextEn": "In a departmental disciplinary proceeding against a school employee, which procedural flaw represents a fatal violation of the principles of natural justice?",
+    "questionTextHi": "विद्यालय के किसी कर्मचारी के विरुद्ध विभागीय अनुशासनात्मक कार्यवाही में, कौन सी प्रक्रियात्मक खामी प्राकृतिक न्याय के सिद्धांतों का गंभीर और घातक उल्लंघन मानी जाएगी?",
+    "optionsEn": [
+      "Allowing the charged employee to cross-examine prosecution witnesses",
+      "The Inquiry Officer acting simultaneously as the chief complainant and witness against the charged employee",
+      "Providing the inquiry report copy to the employee for representation before imposing penalty",
+      "Permitting the assistance of a defense assistant as per rules"
+    ],
+    "optionsHi": [
+      "आरोपी कर्मचारी को अभियोजन पक्ष के गवाहों से जिरह करने की अनुमति देना",
+      "जांच अधिकारी का स्वयं ही आरोपी कर्मचारी के विरुद्ध मुख्य शिकायतकर्ता और गवाह बनना (Nemo Judex In Causa Sua का उल्लंघन)",
+      "दंड लगाने से पूर्व अभ्यावेदन देने हेतु कर्मचारी को जांच रिपोर्ट की प्रति उपलब्ध कराना",
+      "नियमानुसार डिफेंस सहायक की सहायता की अनुमति देना"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "A person cannot be a judge in their own cause ('Nemo judex in causa sua'). If the inquiry officer is also a witness/complainant, the entire proceeding is void ab initio.",
+    "explanationHi": "'कोई भी व्यक्ति अपने ही मामले में न्यायाधीश नहीं हो सकता'। यदि जांच अधिकारी स्वयं शिकायतकर्ता या गवाह बनता है, तो यह प्राकृतिक न्याय का सीधा उल्लंघन है और जांच रद्द हो जाएगी।",
+    "difficulty": "Difficult",
+    "tags": [
+      "Natural Justice",
+      "Disciplinary Inquiry",
+      "Service Law",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffnaturaljusticeinquiry|administrativelawservicejurisprudence|departmental_disciplinary_proceeding_against_school_employee_which_procedural_flaw_represents_fatal_violation|"
+  },
+  {
+    "id": "upsc-crt-210",
+    "examType": "upsc-principal",
+    "sectionId": "upsc-sec-1",
+    "unitId": "upsc-area-6",
+    "topic": "Office Procedure",
+    "topicHi": "कार्यालय प्रक्रिया एवं सेवा नियमावली",
+    "subtopic": "RTI Act 2005 - Section 20 Penalties on PIO",
+    "officialReference": "UPSC CRT Syllabus Area 6",
+    "sourceInfo": {
+      "priorityTier": 1,
+      "sourceName": "Ministry of Law and Justice",
+      "citation": "The Gazette of India, Act No. 22 of 2005",
+      "verificationStatus": "Verified",
+      "verifiedDate": "2026-10-21",
+      "verifiedBy": "Official Gazette & Government Manual Audit"
+    },
+    "conceptId": "UPSC-OFF-RTI2005-SECTION-20-PENALTY",
+    "learningObjective": "Tests per-day and maximum penalty powers of Information Commission under Section 20(1)",
+    "statuteOrScheme": "Right to Information Act, 2005",
+    "effectiveRuleDate": "Section 20(1) Penalties",
+    "questionTextEn": "Under Section 20(1) of the RTI Act 2005, what is the daily penalty rate and the maximum ceiling that the Central or State Information Commission can impose on an errant Public Information Officer for unreasonable delay without reasonable cause?",
+    "questionTextHi": "आरटीआई अधिनियम 2005 की धारा 20(1) के अनुसार, बिना किसी उचित कारण के देरी करने वाले लोक सूचना अधिकारी (PIO) पर सूचना आयोग द्वारा प्रतिदिन की किस दर से और अधिकतम कितना जुर्माना लगाया जा सकता है?",
+    "optionsEn": [
+      "Rs. 100 per day up to a maximum of Rs. 10,000",
+      "Rs. 250 per day up to a maximum of Rs. 25,000",
+      "Rs. 500 per day up to a maximum of Rs. 50,000",
+      "Rs. 1,000 per day up to a maximum of Rs. 1,00,000"
+    ],
+    "optionsHi": [
+      "100 रुपये प्रति दिन, अधिकतम 10,000 रुपये तक",
+      "250 रुपये प्रति दिन, अधिकतम 25,000 रुपये तक",
+      "500 रुपये प्रति दिन, अधिकतम 50,000 रुपये तक",
+      "1,000 रुपये प्रति दिन, अधिकतम 1,00,000 रुपये तक"
+    ],
+    "correctOptionIndex": 1,
+    "explanationEn": "Section 20(1) specifies a penalty of Rs. 250 each day till the application is received or information is furnished, subject to a total maximum limit of Rs. 25,000.",
+    "explanationHi": "धारा 20(1) के अंतर्गत देरी होने पर 250 रुपये प्रतिदिन की दर से अधिकतम 25,000 रुपये तक का जुर्माना लगाया जा सकता है।",
+    "difficulty": "Medium",
+    "tags": [
+      "RTI Act 2005",
+      "Section 20",
+      "Penalties",
+      "Area 6",
+      "UPSC CRT"
+    ],
+    "isPracticeQuestion": true,
+    "isApproved": true,
+    "createdAt": "2026-10-21T00:00:00Z",
+    "fingerprint": "upscoffrti2005section20penalty|righttoinformationact2005|under_section_the_rti_act_2005_what_the_daily_penalty_rate_and|आरट_2005_करन_pio_कतम_सकत"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "Principal Exam Mock Test Portal",
+  "description": "Comprehensive bilingual tu(English & Hindi) mock test portal for UPSC Principal and UPPCS / UP Aided Inter College Principal exams with realistic question palette, scoring analytics, and admin question bank management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
